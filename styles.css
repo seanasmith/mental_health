@@ -9,15 +9,26 @@ h1 {
   font-size: 8rem;
   position: absolute;
   z-index: 2;
-  opacity: 0.5;
+  opacity: 0.7;
   color: red;
+  text-align: right;
+  width: 30%;
 }
 
 h1#ok {
   position: absolute;
+  z-index: 3;
+  color: orange;
+  opacity: 0.7;
+}
+
+h1#cool {
+  position: absolute;
   z-index: 1;
-  color: black;
+  color: blue;
   opacity: 1;
+  /*text-align: right;
+  width: 49%;*/
 }
 
 p {
