@@ -40,3 +40,8 @@ p {
   line-height: 1.4;
   color: white;
 }
+
+hr#divide-one {
+  position: relative;
+  
+}
