@@ -1,3 +1,21 @@
 h1 {
-  color: fuchsia;
+  font-family: 'Helvetica', 'arial', sans-serif;
+  font-size: 10rem;
+  position: absolute;
+  z-index: 2;
+  opacity: 0.5;
+  color: red;
+}
+
+h1#ok {
+  position: absolute;
+  z-index: 1;
+  color: black;
+  opacity: 1;
+}
+
+p {
+  position: relative;
+  top: 400px;
+  width: 45%;
 }
