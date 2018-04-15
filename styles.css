@@ -4,6 +4,9 @@ body {
   background-color: black;
 }
 
+#open {
+  height: 100vh;
+}
 
 h1 {
   font-family: 'Helvetica', 'arial', sans-serif;
@@ -43,5 +46,18 @@ p {
 
 hr#divide-one {
   position: relative;
-  
+  top: -150px;
+  width: 30%;
+  border-color: orange;
+  opacity: .8;
+}
+
+div#interaction {
+  border: 1px solid red;
+  height: 100vh;
+  position: relative;
+}
+
+div#students {
+  background-color: white;
 }
