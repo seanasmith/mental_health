@@ -7,6 +7,10 @@ body {
   margin: auto;
 }
 
+.hidden {
+  display: none;
+}
+
 /*
 ====================================================
       landing section and section dividers
@@ -117,22 +121,24 @@ div#interaction {
 div#students {
   position: relative;
   height: 100vh;
+  text-align: center;
 }
 
 div#students div.portrait {
-  width: 25%;
-  
+  width: 33%;
   display: inline-block;
 }
 
-/*div#students div.portrait.left {
+div#students div.portrait.left {
   float: left;
 }
 
 div#students div.portrait.right {
-  float: right;*/
+  float: right;
 }
 
 div#students div.portrait img {
   width: 100%;
 }
+
+
