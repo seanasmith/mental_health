@@ -156,3 +156,10 @@ div.student-text {
   z-index: 2;
   top: -500px; 
 }
+
+.close {
+  color: #FFF;
+  font-size: 2rem;
+  position: absolute;
+  /*top: -30px;
+}
