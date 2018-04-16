@@ -43,7 +43,7 @@ h1#cool {
   width: 49%;
 }
 
-p {
+#open p {
   position: relative;
   top: 300px;
   width: 40%;
@@ -156,21 +156,29 @@ div.student-text#story-one-text {
   top: 0;
 }
 
-div.student-text#story-two-text {
-  top: -400px;
-}
-
 .student-text#story-one-text.reveal {
   opacity: 1;
+  top: -500px;
+}
+
+div.student-text#story-two-text {
   top: -400px;
 }
 
 div.student-text#story-two-text.reveal {
   opacity: 1;
+  top: -900px;
+}
+
+
+div.student-text#story-three-text {
   top: -800px;
 }
 
-div.student-text#story-three-text.reveal {}
+div.student-text#story-three-text.reveal {
+  opacity: 1;
+  top: -1300px;
+}
 
 div.student-text p.text {
   text-align: left;
@@ -202,6 +210,49 @@ div.student-text p.text {
 
 div#professionals {
   border: 1px solid teal;
+  width: 80%;
+  margin: auto;
+  height: 100vh;
+  position: relative;
+  z-index: 10;
+  background-color: #000;
+}
+
+/*
+====================================================
+                     wrap up
+====================================================
+*/
+
+#wrapup {
+  border: 1px solid yellow;
+  width: 80%;
+  margin: auto;
+  height: 100vh;
+  position: relative;
+  z-index: 10;
+  background-color: #000;
+}
+
+#wrapup p {
+  color: white;
+  width: 50%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 1.3rem;
+  line-height: 1.4;
+  
+}
+
+/*
+====================================================
+                     end matter
+====================================================
+*/
+
+#end {
+   border: 1px solid violet;
   width: 80%;
   margin: auto;
   height: 100vh;
