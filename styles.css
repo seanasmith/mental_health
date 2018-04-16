@@ -151,15 +151,26 @@ div.student-text {
   width: 70%;
   margin: auto;
   height: 400px;
+  overflow: scroll;
   border: 1px solid limegreen;
   position: relative;
   z-index: 2;
   top: -500px; 
 }
 
+div.student-text p.text {
+  text-align: left;
+  width: 70%;
+  line-height: 1.6;
+  margin: auto;
+  margin-bottom: 20px;
+  top: 30px;
+}
+
 .close {
   color: #FFF;
   font-size: 2rem;
-  position: absolute;
-  /*top: -30px;
+  position: static;
+  top: -30px;
+  right: -140px;
 }
