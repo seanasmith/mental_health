@@ -9,16 +9,17 @@
 
 $('.portrait').on('click', function() {
     var text = $(this).attr('id');
-    console.log(text);
+    $('.student-text').removeClass('reveal');
+  
   
 //get id for clicked portrait, make visible appropriate text div
   
     if (text == 'first-story') {
-      $('.student-text#story-one-text').fadeTo(400,1);
+      $('.student-text#story-one-text').addClass('reveal');
     } else if (text == 'second-story'){
-      $('.student-text#story-two-text').fadeTo(400,1);   
+      $('.student-text#story-two-text').addClass('reveal');   
     } else {
-      $('.student-text#story-three-text').fadeTo(400,1);
+      $('.student-text#story-three-text').addClass('reveal');
     }
     
   });
@@ -32,7 +33,5 @@ $('.portrait').on('click', function() {
 //set event to close icon and remove class visible, add class hidden
 
 $('.close').on('click', function () {
-  $('.student-text').removeClass('visible');
-  $('.student-text').addClass('hidden');
-
+  $('.student-text').removeClass('reveal');
 });

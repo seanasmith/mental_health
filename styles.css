@@ -148,8 +148,12 @@ div.student-text#story-one-text, div.student-text#story-two-text, div.student-te
   border: 1px solid limegreen;
   position: relative;
   z-index: 2;
-  top: -500px; 
-  opacity: 0;
+  opacity: .3;
+  transition-duration: 1.5s
+}
+
+.student-text#story-one-text.reveal, div.student-text#story-two-text.reveal, div.student-text#story-three-text.reveal {
+  opacity: 1;
 }
 
 div.student-text p.text {
