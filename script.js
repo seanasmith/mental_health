@@ -1,16 +1,18 @@
  $('.portrait').on('click', function() {
-    console.log( $(this).attr('data-food') );
-  });
-  
-  We can then use that element's attributes to do other things:
-  
-   $('.list-group-item').on('mouseover', function() {
-    var food = $(this).attr('data-food');
+    var text = $(this).attr('id');
+    $('.student-text').removeClass('visible');
     
-    if (food == 'cauliflower') {
-      $('p.first').text('CAULIFLOWER!');
+    if (text == 'first-story') {
+      $('.student-text#story-one-text').removeClass('hidden');
+      $('.student-text#story-one-text').addClass('visible');
+    } else if (text == 'second-story'){
+      $('.student-text#story-two-text').removeClass('hidden');
+      $('.student-text#story-two-text').addClass('visible');    
     } else {
-      $('p.first').text('Four score and seven years ago, our forefathers ...');    
+      $('.student-text#story-three-text').removeClass('hidden');
+      $('.student-text#story-three-text').addClass('visible'); 
     }
     
   });
+
+$(.close)
