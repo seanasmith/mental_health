@@ -9,22 +9,16 @@
 
 $('.portrait').on('click', function() {
     var text = $(this).attr('id');
-  
-//adjust classes when user clicks portrait without closing popup  
-    $('.student-text').removeClass('visible');
-    $('.student-text').addClass('hidden');
+    console.log(text);
   
 //get id for clicked portrait, make visible appropriate text div
   
     if (text == 'first-story') {
-      $('.student-text#story-one-text').removeClass('hidden');
-      $('.student-text#story-one-text').addClass('visible');
+      $('.student-text#story-one-text').fadeTo(400,1);
     } else if (text == 'second-story'){
-      $('.student-text#story-two-text').removeClass('hidden');
-      $('.student-text#story-two-text').addClass('visible');    
+      $('.student-text#story-two-text').fadeTo(400,1);   
     } else {
-      $('.student-text#story-three-text').removeClass('hidden');
-      $('.student-text#story-three-text').addClass('visible'); 
+      $('.student-text#story-three-text').fadeTo(400,1);
     }
     
   });
