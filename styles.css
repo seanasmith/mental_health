@@ -147,17 +147,34 @@ div.student-text#story-one-text, div.student-text#story-two-text, div.student-te
   overflow: scroll;
   border: 1px solid limegreen;
   position: relative;
-  z-index: 2;
-  opacity: .3;
-  transition-duration: 1.5s
+  z-index: 1;
+  opacity: .0;
+  transition-duration: 1.5s;
 }
 
-.student-text#story-one-text.reveal, div.student-text#story-two-text.reveal, div.student-text#story-three-text.reveal {
-  opacity: 1;
+div.student-text#story-one-text {
+  top: 0;
 }
+
+div.student-text#story-two-text {
+  top: -400px;
+}
+
+.student-text#story-one-text.reveal {
+  opacity: 1;
+  top: -400px;
+}
+
+div.student-text#story-two-text.reveal {
+  opacity: 1;
+  top: -800px;
+}
+
+div.student-text#story-three-text.reveal {}
 
 div.student-text p.text {
   text-align: left;
+  color: green;
   width: 70%;
   line-height: 1.6;
   margin: auto;
@@ -174,4 +191,21 @@ div.student-text p.text {
   background-color:#000;
   width: 100%;
   text-align: right;
+}
+
+
+/*
+====================================================
+               professional features
+====================================================
+*/
+
+div#professionals {
+  border: 1px solid teal;
+  width: 80%;
+  margin: auto;
+  height: 100vh;
+  position: relative;
+  z-index: 10;
+  background-color: #000;
 }
