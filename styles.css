@@ -54,31 +54,31 @@ div#divide-orange {
   height: 30px;
   border-bottom: 2px solid orange;
   border-right: 2px solid orange;
-  opacity: .8;
+  opacity: .6;
   margin: auto;
   transform: rotate(45deg)  
 }
 
 div#divide-blue {
   position: relative;
-  top: -1800px;
+  top: -170px;
   width: 30px;
   height: 30px;
   border-bottom: 2px solid aquamarine;
   border-right: 2px solid aquamarine;
-  opacity: .8;
+  opacity: .6;
   margin: auto;
   transform: rotate(45deg)
 }
 
 div#divide-red {
   position: relative;
-  top: -200px;
+  top: -190px;
   width: 30px;
   height: 30px;
   border-bottom: 2px solid red;
   border-right: 2px solid red;
-  opacity: .8;
+  opacity: .6;
   margin: auto;
   transform: rotate(45deg)
 }
