@@ -1,7 +1,7 @@
 body {
-  background-color: black;
+  background-color: #123456;
   margin-top: 0;
-  font-family: 'Helvetica Neue', serif;
+  font-family: 'Lora', serif;
 }
 
 .section {
@@ -87,7 +87,7 @@ h1#panic {
   position: relative;
   top: 300px;
   width: 40%;
-  font-size: 1.1rem;
+  font-size: 16px;
   letter-spacing: 2px;
   line-height: 1.6;
   color: #FFF;
@@ -162,7 +162,7 @@ div#intro p {
   margin: auto;
   margin-top: 20px;
   margin-bottom: 20px;
-  font-size: 1.1rem;
+  font-size: 16px;
   letter-spacing: 2px;
   line-height: 1.6;
   color: #FFF;
