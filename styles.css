@@ -169,7 +169,7 @@ div.student-text#story-two-text {
 
 div.student-text#story-two-text.reveal {
   opacity: 1;
-  top: -900px;
+  top: -1200px;
 }
 
 
@@ -179,13 +179,15 @@ div.student-text#story-three-text {
 
 div.student-text#story-three-text.reveal {
   opacity: 1;
-  top: -1300px;
+  top: -1800px;
 }
 
 div.student-text img {
   width: 33%;
   margin-left: 8%;
   float: left;
+  position: sticky;
+  top: 70px;
 }
 
 div.student-text p.text {
@@ -193,7 +195,7 @@ div.student-text p.text {
   color: green;
   width: 45%;
   float: right;
-  font-size: 
+  font-size: 1.2rem;
   line-height: 1.6;
   margin: auto;
   margin-right: 8%;
