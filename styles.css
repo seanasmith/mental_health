@@ -7,6 +7,31 @@ body {
   margin: auto;
 }
 
+nav {
+  padding-top: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: #FFF;
+  height: 30px;
+}
+
+nav ul {
+  list-style: none;
+  text-align: right;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #FFF;
+  padding: 10px;
+  border: 1px solid #FFF;
+  margin: 0 10px 0 10px;
+}
 
 /*
 ====================================================
