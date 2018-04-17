@@ -1,5 +1,6 @@
 body {
   background-color: black;
+  margin-top: 0;
 }
 
 .section {
@@ -8,12 +9,13 @@ body {
 }
 
 nav {
-  padding-top: 10px;
+  padding: 3px 3px 15px 3px;
   position: sticky;
   top: 0;
   z-index: 100;
-  background-color: #FFF;
+  background-color: #000;
   height: 30px;
+  margin-top: 0;
 }
 
 nav ul {
@@ -29,7 +31,6 @@ nav ul li a {
   text-decoration: none;
   color: #FFF;
   padding: 10px;
-  border: 1px solid #FFF;
   margin: 0 10px 0 10px;
 }
 
@@ -52,14 +53,14 @@ h1 {
   color: red;
 }
 
-h1#ok {
+h1#depression {
   position: absolute;
   z-index: 3;
   color: orange;
   opacity: 0.6;
 }
 
-h1#cool {
+h1#panic {
   position: absolute;
   z-index: 1;
   color: aquamarine;
@@ -145,7 +146,6 @@ div#students {
   height: 100vh;
   text-align: center;
   z-index: 1;
-  border-top: 1px solid white;
 }
 
 div#students div.portrait {
@@ -172,7 +172,6 @@ div.student-text#story-one-text, div.student-text#story-two-text, div.student-te
   margin: auto;
   height: 600px;
   overflow: scroll;
-  border: 1px solid limegreen;
   position: relative;
   z-index: 1;
   opacity: .0;
