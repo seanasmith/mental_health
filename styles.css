@@ -24,7 +24,7 @@ nav ul {
 }
 
 nav ul li {
-  display: inline;
+  
 }
 
 nav ul li a {
@@ -41,7 +41,7 @@ nav ul li a {
 */
 
 #open {
-  height: 100vh;
+  height: 90vh;
 }
 
 h1 {
@@ -80,7 +80,7 @@ h1#panic {
 
 div#divide-orange {
   position: relative;
-  top: -150px;
+  top: -120px;
   width: 30px;
   height: 30px;
   border-bottom: 2px solid orange;
@@ -92,7 +92,7 @@ div#divide-orange {
 
 div#divide-blue {
   position: relative;
-  top: -170px;
+  top: -140px;
   width: 30px;
   height: 30px;
   border-bottom: 2px solid aquamarine;
@@ -104,7 +104,7 @@ div#divide-blue {
 
 div#divide-red {
   position: relative;
-  top: -190px;
+  top: -160px;
   width: 30px;
   height: 30px;
   border-bottom: 2px solid red;
@@ -114,7 +114,7 @@ div#divide-red {
   transform: rotate(45deg)
 }
 
-hr#divide-two {
+hr {
   position: relative;
   margin-top: 75px;
   margin-bottom: 75px;
@@ -131,7 +131,7 @@ hr#divide-two {
 
 div#interaction {
   border: 1px solid red;
-  height: 100vh;
+  height: 90vh;
   position: relative;
 }
 
@@ -143,7 +143,7 @@ div#interaction {
 
 div#students {
   position: relative;
-  height: 100vh;
+  height: 90vh;
   text-align: center;
   z-index: 1;
 }
@@ -249,7 +249,7 @@ div#professionals {
   border: 1px solid teal;
   width: 80%;
   margin: auto;
-  height: 100vh;
+  height: 90vh;
   position: relative;
   z-index: 10;
   background-color: #000;
@@ -265,7 +265,7 @@ div#professionals {
   border: 1px solid yellow;
   width: 80%;
   margin: auto;
-  height: 100vh;
+  height: 90vh;
   position: relative;
   z-index: 10;
   background-color: #000;
@@ -292,7 +292,7 @@ div#professionals {
    border: 1px solid violet;
   width: 80%;
   margin: auto;
-  height: 100vh;
+  height: 90vh;
   position: relative;
   z-index: 10;
   background-color: #000;
