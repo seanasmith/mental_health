@@ -145,7 +145,7 @@ div.student-text#story-one-text, div.student-text#story-two-text, div.student-te
   background-color: #000;
   width: 100%;
   margin: auto;
-  height: 800px;
+  height: 600px;
   overflow: scroll;
   border: 1px solid limegreen;
   position: relative;
@@ -160,7 +160,7 @@ div.student-text#story-one-text {
 
 .student-text#story-one-text.reveal {
   opacity: 1;
-  top: -500px;
+  top: -600px;
 }
 
 div.student-text#story-two-text {
@@ -183,18 +183,20 @@ div.student-text#story-three-text.reveal {
 }
 
 div.student-text img {
-  width: 40%;
+  width: 33%;
+  margin-left: 8%;
   float: left;
 }
 
 div.student-text p.text {
   text-align: left;
   color: green;
-  width: 48%;
+  width: 45%;
   float: right;
+  font-size: 
   line-height: 1.6;
   margin: auto;
-  margin-right: 20px;
+  margin-right: 8%;
   margin-bottom: 20px;
   top: 30px;
 }
