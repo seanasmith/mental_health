@@ -65,3 +65,13 @@ $(document).ready(function(){
   });
 });
 
+/*
+=========================================
+        menu link hover expansion
+=========================================
+*/
+
+$('nav ul li').on('hover', function() {
+  var newMenu = $(this).attr
+
+});

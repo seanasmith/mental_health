@@ -1,5 +1,5 @@
 body {
-  background-color: #aaaaaa;
+  background-color: #000;
   margin: 0;
   font-family: 'Lora', serif;
 }
@@ -56,7 +56,9 @@ nav ul li a {
 #open {
   height: 90vh;
   width: 100%;
-  background: linear-gradient(#aaaaaa, #000)
+  background: linear-gradient(#aaaaaa, #000);
+  top: -15px;
+  position: relative;
 }
 
 h1 {
@@ -149,10 +151,11 @@ hr {
 */
 
 div#interaction {
-  border: 1px solid red;
+  
   height: 90vh;
   position: relative;
   background-color: #000;
+  
 }
 
 /*
@@ -189,6 +192,7 @@ div#students {
   height: 90vh;
   text-align: center;
   z-index: 1;
+  width: 80%;
 }
 
 div#students div.portrait {
