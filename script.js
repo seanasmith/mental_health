@@ -71,7 +71,16 @@ $(document).ready(function(){
 =========================================
 */
 
-$('nav ul li').on('hover', function() {
-  var newMenu = $(this).attr
-
+//On mouseover, change a text to section title
+$('nav ul li a').on('mouseover', function() {
+  var newMenu = $(this).attr('title');
+  $(this).text(newMenu);
 });
+
+//remove section title on mouseout
+$('nav ul li a').on('mouseout', function() {
+  var newMenu = $(this).attr('number');
+  $(this).text(newMenu);
+});
+
+
