@@ -63,7 +63,7 @@ nav ul li a {
 
 h1 {
   font-family: 'Helvetica', 'arial', sans-serif;
-  font-size: 8rem;
+  font-size: 9rem;
   position: absolute;
   z-index: 2;
   opacity: 0.7;
@@ -84,12 +84,12 @@ h1#panic {
   color: aquamarine;
   opacity: 0.6;
   text-align: right;
-  width: 49%;
+  width: 55%;
 }
 
 #open p {
   position: relative;
-  top: 300px;
+  top: 330px;
   width: 35%;
   font-size: 14px;
   letter-spacing: 2px;
