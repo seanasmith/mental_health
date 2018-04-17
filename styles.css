@@ -1,6 +1,7 @@
 body {
   background-color: black;
   margin-top: 0;
+  font-family: 'Georgia', serif;
 }
 
 .section {
@@ -86,9 +87,11 @@ h1#panic {
   position: relative;
   top: 300px;
   width: 40%;
-  font-size: 1.3rem;
-  line-height: 1.4;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  line-height: 1.8;
   color: white;
+  font-weight: 100;
 }
 
 div#divide-orange {
