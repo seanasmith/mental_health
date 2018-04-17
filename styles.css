@@ -119,10 +119,12 @@ div#students {
   position: relative;
   height: 100vh;
   text-align: center;
-  z-index: 1
+  z-index: 1;
+  border-top: 1px solid white;
 }
 
 div#students div.portrait {
+  margin-top: 80px;
   width: 33%;
   display: inline-block;
 }
@@ -141,9 +143,9 @@ div#students div.portrait img {
 
 div.student-text#story-one-text, div.student-text#story-two-text, div.student-text#story-three-text {
   background-color: #000;
-  width: 70%;
+  width: 100%;
   margin: auto;
-  height: 400px;
+  height: 800px;
   overflow: scroll;
   border: 1px solid limegreen;
   position: relative;
@@ -180,12 +182,19 @@ div.student-text#story-three-text.reveal {
   top: -1300px;
 }
 
+div.student-text img {
+  width: 40%;
+  float: left;
+}
+
 div.student-text p.text {
   text-align: left;
   color: green;
-  width: 70%;
+  width: 48%;
+  float: right;
   line-height: 1.6;
   margin: auto;
+  margin-right: 20px;
   margin-bottom: 20px;
   top: 30px;
 }
@@ -198,7 +207,7 @@ div.student-text p.text {
   margin-top:0;
   background-color:#000;
   width: 100%;
-  text-align: right;
+  text-align: left;
 }
 
 
