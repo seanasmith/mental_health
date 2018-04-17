@@ -1,7 +1,7 @@
 body {
   background-color: black;
   margin-top: 0;
-  font-family: 'Georgia', serif;
+  font-family: 'Helvetica Neue', serif;
 }
 
 .section {
@@ -87,11 +87,11 @@ h1#panic {
   position: relative;
   top: 300px;
   width: 40%;
-  font-size: 1rem;
-  letter-spacing: 1px;
-  line-height: 1.8;
-  color: white;
-  font-weight: 100;
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+  line-height: 1.6;
+  color: #FFF;
+  font-weight: 300;
 }
 
 div#divide-orange {
@@ -158,13 +158,15 @@ div#interaction {
 */
 
 div#intro p {
-  color: white;
   width: 50%;
   margin: auto;
   margin-top: 20px;
   margin-bottom: 20px;
-  font-size: 1.3rem;
-  line-height: 1.4;
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+  line-height: 1.6;
+  color: #FFF;
+  font-weight: 300;
 }
 
 #intro-first {
