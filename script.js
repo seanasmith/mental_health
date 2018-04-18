@@ -4,14 +4,12 @@
 =========================================
 */
 
-
 //set event and function
 
 $('.portrait').on('click', function() {
     var text = $(this).attr('id');
     $('.student-text').removeClass('reveal');
-  
-  
+   
 //get id for clicked portrait, make visible appropriate text div
   
     if (text == 'first-story') {
@@ -21,7 +19,6 @@ $('.portrait').on('click', function() {
     } else {
       $('.student-text#story-three-text').addClass('reveal');
     }
-    
   });
 
 /*
@@ -35,7 +32,6 @@ $('.portrait').on('click', function() {
 $('.close').on('click', function () {
   $('.student-text').removeClass('reveal');
 });
-
 
 /*
 =========================================
