@@ -90,39 +90,51 @@ $('nav ul li a').on('mouseout', function() {
 =========================================
 */
 
-
 //start to first module
 $('#start p').on('click', function () {
+  console.log('1');
   $('#first-anx').toggleClass('hidden');
   $('#start').toggleClass('hidden');
 });
 
 //module 1 to module 2
 $('#first-anx p.next').on('click', function () {
+   console.log('2');
   $('#first-anx').toggleClass('hidden');
   $('#second-anx').toggleClass('hidden');
 });
 
 //2 to 3
 $('#second-anx p.next').on('click', function () {
+   console.log('3');
   $('#second-anx').toggleClass('hidden');
   $('#third-anx').toggleClass('hidden');
 });
 
 //3 to 4
 $('#third-anx p.next').on('click', function () {
+   console.log('4');
   $('#third-anx').toggleClass('hidden');
   $('#fourth-anx').toggleClass('hidden');
 });
 
 //4 to 5
 $('#fourth-anx p.next').on('click', function () {
+   console.log('5');
   $('#fourth-anx').toggleClass('hidden');
   $('#fifth-anx').toggleClass('hidden');
 });
 
 //5 to 6
-$('#second-anx p.next').on('click', function () {
-  $('#second-anx').toggleClass('hidden');
-  $('#third-anx').toggleClass('hidden');
+$('#fifth-anx p.next').on('click', function () {
+   console.log('6');
+  $('#fifth-anx').toggleClass('hidden');
+  $('#sixth-anx').toggleClass('hidden');
+});
+
+//6 to 1
+$('#sixth-anx p.next').on('click', function () {
+   console.log('6');
+  $('#sixth-anx').toggleClass('hidden');
+  $('#first-anx').toggleClass('hidden');
 });
