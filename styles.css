@@ -365,13 +365,12 @@ div.student-text p.text {
 */
 
 div#professionals {
-  border: 1px solid teal;
-  width: 80%;
+  width: 100%;
   margin: auto;
-  height: 90vh;
+  height: 100vh;
   position: relative;
   z-index: 10;
-  background-color: #000;
+  background: linear-gradient(#000,#FFF);
 }
 
 /*
@@ -382,16 +381,16 @@ div#professionals {
 
 #wrapup {
   border: 1px solid yellow;
-  width: 80%;
+  height: 100vh;
+  width: 100%;
   margin: auto;
-  height: 90vh;
   position: relative;
   z-index: 10;
-  background-color: #000;
+  background-color: #FFF
 }
 
 #wrapup p {
-  color: white;
+  color: #000;
   width: 50%;
   margin: auto;
   margin-top: 20px;
@@ -408,11 +407,11 @@ div#professionals {
 */
 
 #end {
-   border: 1px solid violet;
-  width: 80%;
+  border: 1px solid violet;
+  width: 100%;
   margin: auto;
   height: 90vh;
   position: relative;
   z-index: 10;
-  background-color: #000;
+  background-color: #FFF;
 }
