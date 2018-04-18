@@ -83,6 +83,24 @@ $('nav ul li a').on('mouseout', function() {
   $(this).text(newMenu);
 });
 
+/*
+=========================================
+    menu color fix at backgound change
+=========================================
+*/
+
+$(document).ready(function(){          
+  var scroll_pos = 0;
+  $(document).scroll(function() { 
+    scroll_pos = $(this).scrollTop();
+      
+    if(scroll_pos < 3300) {
+      $("nav ul li a").css('color', '#FFF');
+    } else {
+      $("nav ul li a").css('color', '#000');
+    }
+  });
+});
 
 /*
 =========================================
