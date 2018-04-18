@@ -163,10 +163,13 @@ div.interaction-module {
   height: 250px;
   border: 1px solid #FFF;
   color: #FFF;
+  transition-duration: 0.5s;
+  display: block;
 }
 
 div.interaction-module.hidden {
-  display: none;
+  opacity: 0;
+  transition-duration: 0.5s;
 }
 
 #start {
@@ -190,36 +193,32 @@ div.interaction-module.hidden {
 }
 
 #first-anx {
-  top: 40%;
   position: relative;
 }
 
 #second-anx {
-  top: 40%;
   position: relative;
+  top: -60%;
   left: 15%;
 }
 
 #third-anx {
-  top: 40%;
   position: relative;
+  top: -60%;
   left: 30%;
 }
 
 #fourth-anx {
-  top: 40%;
   position: relative;
   left: 45%;
 }
 
 #fifth-anx {
-  top: 40%;
   position: relative;
   left: 60%;
 }
 
 #sixth-anx {
-  top: 40%;
   position: relative;
   left: 75%;
 }
