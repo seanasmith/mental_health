@@ -102,3 +102,27 @@ $('#first-anx p.next').on('click', function () {
   $('#first-anx').toggleClass('hidden');
   $('#second-anx').toggleClass('hidden');
 });
+
+//2 to 3
+$('#second-anx p.next').on('click', function () {
+  $('#second-anx').toggleClass('hidden');
+  $('#third-anx').toggleClass('hidden');
+});
+
+//3 to 4
+$('#third-anx p.next').on('click', function () {
+  $('#third-anx').toggleClass('hidden');
+  $('#fourth-anx').toggleClass('hidden');
+});
+
+//4 to 5
+$('#fourth-anx p.next').on('click', function () {
+  $('#fourth-anx').toggleClass('hidden');
+  $('#fifth-anx').toggleClass('hidden');
+});
+
+//5 to 6
+$('#second-anx p.next').on('click', function () {
+  $('#second-anx').toggleClass('hidden');
+  $('#third-anx').toggleClass('hidden');
+});
