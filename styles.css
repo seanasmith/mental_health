@@ -153,11 +153,36 @@ hr {
 */
 
 div#interaction {
-  
   height: 90vh;
   position: relative;
   background-color: #000;
-  
+}
+
+div.interaction-module {
+  width: 250px;
+  height: 250px;
+  border: 1px solid #FFF;
+  color: #FFF;
+}
+
+#start {
+  margin: auto;
+  position: relative;
+  top: 40%;
+}
+
+#start p {
+  text-align: center;
+  position: relative;
+  top: 40%;
+}
+
+#start p:hover {
+  color: #DD0000;
+  font-style: italic;
+  font-size: 2rem;
+  top: 28%;
+  cursor: pointer;
 }
 
 /*
