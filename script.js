@@ -84,3 +84,21 @@ $('nav ul li a').on('mouseout', function() {
 });
 
 
+/*
+=========================================
+        interaction experience
+=========================================
+*/
+
+
+//start to first module
+$('#start p').on('click', function () {
+  $('#first-anx').toggleClass('hidden');
+  $('#start').toggleClass('hidden');
+});
+
+//module 1 to module 2
+$('#first-anx p.next').on('click', function () {
+  $('#first-anx').toggleClass('hidden');
+  $('#second-anx').toggleClass('hidden');
+});
