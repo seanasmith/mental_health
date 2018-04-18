@@ -176,6 +176,7 @@ div.interaction-module.hidden {
   margin: auto;
   position: relative;
   top: 40%;
+  z-index: 100;
 }
 
 #start p {
@@ -194,6 +195,7 @@ div.interaction-module.hidden {
 
 #first-anx {
   position: relative;
+  top: 30%;
 }
 
 #second-anx {
@@ -210,16 +212,19 @@ div.interaction-module.hidden {
 
 #fourth-anx {
   position: relative;
+  top: -150%;
   left: 45%;
 }
 
 #fifth-anx {
   position: relative;
+  top: -150%;
   left: 60%;
 }
 
 #sixth-anx {
   position: relative;
+  top: -200%;
   left: 75%;
 }
 
