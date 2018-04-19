@@ -302,7 +302,7 @@ div.student-text#story-one-text, div.student-text#story-two-text, div.student-te
   height: 600px;
   position: relative;
   z-index: 1;
-  opacity: .0;
+  opacity: .5;
   transition-duration: 1.5s;
 }
 
@@ -382,7 +382,7 @@ div#professionals {
   width: 100%;
   margin: auto;
   height: 100vh;
-  position: relative;
+  position: absolute;
   z-index: 10;
   background: linear-gradient(#000,#FFF);
 }
@@ -398,7 +398,7 @@ div#professionals {
   height: 100vh;
   width: 100%;
   margin: auto;
-  position: relative;
+  
   z-index: 10;
   background-color: #FFF
 }
@@ -417,7 +417,7 @@ div#professionals {
 
 /*
 ====================================================
-                     end matter
+                         end
 ====================================================
 */
 
@@ -426,7 +426,6 @@ div#professionals {
   width: 100%;
   margin: auto;
   height: 90vh;
-  position: relative;
   z-index: 10;
   background-color: #FFF;
 }
