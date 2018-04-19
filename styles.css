@@ -21,7 +21,7 @@ body {
 
 nav {
   padding: 3px 3px 15px 3px;
-  position: sticky;
+  position: fixed;
   top: 0;
   z-index: 100;
   margin-right: 3%;
@@ -341,7 +341,7 @@ div.student-text img {
   width: 33%;
   margin-left: 8%;
   float: left;
-  position: sticky;
+  position: stat;
   top: 70px;
 }
 
