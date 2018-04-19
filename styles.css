@@ -54,39 +54,44 @@ nav ul li a {
 */
 
 #open {
-  height: 90vh;
+  height: 100vh;
   width: 100%;
   background: linear-gradient(#999999, #000);
-  top: -15px;
   position: relative;
+  border: 1px solid red;
+}
+
+#headline {
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  border: 1px solid limegreen;
+  width: 80vw;
+  height: 20vh;
 }
 
 h1 {
   font-family: 'Helvetica', 'arial', sans-serif;
   font-size: 9rem;
-  position: absolute;
   z-index: 2;
   opacity: 0.7;
   color: #DD0000;
-  left: 7%;
+  position: absolute;
+  justify-content: flex-start;
 }
 
 h1#depression {
-  position: absolute;
   z-index: 3;
   color: #FFA500;
   opacity: 0.6;
-  left: 6.5%;
 }
 
 h1#panic {
-  position: absolute;
   z-index: 1;
   color: #00ffdd;
   opacity: 0.6;
   text-align: right;
-  width: 55%;
-  left: 6.5%;
+  width: 55vw;
 }
 
 #open p {
