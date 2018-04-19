@@ -241,11 +241,11 @@ div.interaction-module.hidden {
 
 /*
 ====================================================
-                       intro // outro
+                       intro
 ====================================================
 */
 
-div#intro p, div#outro p {
+div#intro p {
   width: 50%;
   margin: auto;
   margin-top: 20px;
@@ -270,7 +270,7 @@ div#intro p, div#outro p {
 
 div#students {
   position: relative;
-  height: 100vh;
+  height: 90vh;
   text-align: center;
   z-index: 1;
   width: 80%;
@@ -300,9 +300,10 @@ div.student-text#story-one-text, div.student-text#story-two-text, div.student-te
   width: 100%;
   margin: auto;
   height: 600px;
+  overflow: scroll;
   position: relative;
   z-index: 1;
-  opacity: .5;
+  opacity: .0;
   transition-duration: 1.5s;
 }
 
@@ -316,7 +317,7 @@ div.student-text#story-one-text {
 }
 
 div.student-text#story-two-text {
-  top: -600px;
+  top: -400px;
 }
 
 div.student-text#story-two-text.reveal {
@@ -326,7 +327,7 @@ div.student-text#story-two-text.reveal {
 
 
 div.student-text#story-three-text {
-  top: -1200px;
+  top: -800px;
 }
 
 div.student-text#story-three-text.reveal {
@@ -342,27 +343,23 @@ div.student-text img {
   top: 0;
 }
 
-div.popup-text {
-  border: 1px solid yellow;
-  height: 600px;
-  overflow: scroll;
-  width: 50%;
-  float: right;
-  margin-top: 100px;
-  color: white;
+div.student-text p.text {
   text-align: left;
-}
-
-div.popup-text p {
-  width: 80%;
+  color: #FFF;
+  width: 45%;
+  float: right;
+  font-size: 1rem;
+  line-height: 1.6;
   margin: auto;
+  margin-right: 8%;
   margin-bottom: 20px;
+  top: 30px;
 }
 
 .close {
   color: #FFF;
   font-size: 2rem;
-  position: absolute;
+  position: sticky;
   top: 0;
   margin-top:0;
   background-color:#000;
@@ -382,7 +379,7 @@ div#professionals {
   width: 100%;
   margin: auto;
   height: 100vh;
-  position: absolute;
+  position: relative;
   z-index: 10;
   background: linear-gradient(#000,#FFF);
 }
@@ -417,7 +414,7 @@ div#professionals {
 
 /*
 ====================================================
-                         end
+                     end matter
 ====================================================
 */
 
@@ -426,6 +423,7 @@ div#professionals {
   width: 100%;
   margin: auto;
   height: 90vh;
+  position: relative;
   z-index: 10;
   background-color: #FFF;
 }
