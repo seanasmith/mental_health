@@ -1,11 +1,15 @@
 body {
   background-color: #000;
-  margin: 0;
+  margin: auto;
   font-family: 'Lora', serif;
+  max-height: 800px;
+  max-width: 1400px;
+  margin: auto;
 }
 
 .section {
   margin: auto;
+  
 }
 
 .dropcap {
@@ -54,7 +58,6 @@ nav ul li a {
 */
 
 #open {
-  max-width: 1200px;
   height: 90vh;
   width: 100%;
   background: linear-gradient(#999999, #000);
