@@ -2,14 +2,11 @@ body {
   background-color: #000;
   margin: auto;
   font-family: 'Lora', serif;
-  max-height: 800px;
-  max-width: 1400px;
-  margin: auto;
+  
 }
 
 .section {
   margin: auto;
-  
 }
 
 .dropcap {

@@ -90,7 +90,7 @@ $(document).ready(function(){
   $(document).scroll(function() { 
     scroll_pos = $(this).scrollTop();
       
-    if(scroll_pos < 3300) {
+    if(scroll_pos < 3700) {
       $("nav ul li a").css('color', '#FFF');
     } else {
       $("nav ul li a").css('color', '#000');
