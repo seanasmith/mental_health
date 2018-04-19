@@ -61,6 +61,17 @@ nav ul li a {
   background: linear-gradient(#999999, #000);
   top: -15px;
   position: relative;
+  display: flex;
+  align-items: center;
+}
+
+#headline {
+  position: relative;
+  left: 8%;
+}
+
+#headline img {
+  width: 50vw;
 }
 
 h1 {
@@ -93,26 +104,12 @@ h1#panic {
 
 #open p {
   position: relative;
-  top: 330px;
   width: 35%;
   font-size: 14px;
   letter-spacing: 2px;
   line-height: 1.6;
   color: #FFF;
   font-weight: 300;
-  left: 7%;
-}
-
-#open p {
-  position: relative;
-  top: 330px;
-  width: 35%;
-  font-size: 14px;
-  letter-spacing: 2px;
-  line-height: 1.6;
-  color: #FFF;
-  font-weight: 300;
-  left: 7%;
 }
 
 div#divide-orange {
