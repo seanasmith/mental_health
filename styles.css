@@ -23,6 +23,7 @@ nav {
   padding: 3px 3px 15px 3px;
   position: fixed;
   top: 0;
+  right: 0;
   z-index: 100;
   margin-right: 3%;
   height: 30px;
@@ -341,8 +342,8 @@ div.student-text img {
   width: 33%;
   margin-left: 8%;
   float: left;
-  position: stat;
-  top: 70px;
+  position: static;
+  top: 0;
 }
 
 div.student-text p.text {
