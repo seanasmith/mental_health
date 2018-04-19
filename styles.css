@@ -59,45 +59,45 @@ nav ul li a {
   background: linear-gradient(#999999, #000);
   position: relative;
   border: 1px solid red;
-}
-
-#headline {
   justify-content: center;
   align-items: center;
-  margin: auto;
+}
+
+/*#headline {
   border: 1px solid limegreen;
   width: 80vw;
   height: 20vh;
-}
+}*/
 
 h1 {
   font-family: 'Helvetica', 'arial', sans-serif;
   font-size: 9rem;
+  position: absolute;;
   z-index: 2;
   opacity: 0.7;
   color: #DD0000;
-  position: absolute;
-  justify-content: flex-start;
+  left: 7%;
 }
 
 h1#depression {
   z-index: 3;
   color: #FFA500;
   opacity: 0.6;
+  left: 6.5%;
 }
 
 h1#panic {
+  
   z-index: 1;
   color: #00ffdd;
   opacity: 0.6;
   text-align: right;
-  width: 55vw;
+  width: 55%;
+  left: 5.5%;
 }
 
 #open p {
-  position: relative;
-  top: 330px;
-  width: 35%;
+  width: 35vw;
   font-size: 14px;
   letter-spacing: 2px;
   line-height: 1.6;
