@@ -241,11 +241,11 @@ div.interaction-module.hidden {
 
 /*
 ====================================================
-                       intro
+                       intro // outro
 ====================================================
 */
 
-div#intro p {
+div#intro p, div#outro p {
   width: 50%;
   margin: auto;
   margin-top: 20px;
