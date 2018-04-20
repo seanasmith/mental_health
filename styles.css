@@ -58,7 +58,7 @@ nav ul li a {
 #open {
   height: 90vh;
   width: 100%;
-  background: linear-gradient(#999999, #000);
+  background: #000;
   top: -15px;
   position: relative;
   display: flex;
