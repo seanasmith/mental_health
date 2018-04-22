@@ -310,7 +310,6 @@ div.student-text#story-one-text, div.student-text#story-two-text, div.student-te
 
 div.student-text#story-one-text {
   top: 0;
-
 }
 
 .student-text#story-one-text.reveal {
@@ -329,7 +328,7 @@ div.student-text#story-two-text.reveal {
 
 
 div.student-text#story-three-text {
-  top: -800px;
+  top: -1200px;
 }
 
 div.student-text#story-three-text.reveal {
@@ -348,7 +347,7 @@ div.student-text img {
 div.student-text p.text {
   text-align: left;
   color: #FFF;
-  width: 45%;
+  width: 80%;
   float: right;
   font-size: 1rem;
   line-height: 1.6;
@@ -406,10 +405,11 @@ div#professionals {
   position: relative;
   z-index: 10;
   background-color: #FFF;
-  clear: both;
+ 
 }
 
 #wrapup p {
+  border: 1px solid green;
   width: 50%;
   margin: auto;
   margin-top: 20px;
@@ -417,8 +417,9 @@ div#professionals {
   font-size: 16px;
   letter-spacing: 2px;
   line-height: 1.6;
-  color: #000;
+  color: #F00;
   font-weight: 300;
+  clear: both;
 }
 
 /*
