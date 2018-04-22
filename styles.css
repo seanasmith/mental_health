@@ -2,7 +2,6 @@ body {
   background-color: #000;
   margin: auto;
   font-family: 'Lora', serif;
-  
 }
 
 .section {
@@ -386,6 +385,7 @@ div#professionals {
   position: relative;
   z-index: 10;
   background: linear-gradient(#000,#FFF);
+  clear: both;
 }
 
 /*
@@ -401,7 +401,8 @@ div#professionals {
   margin: auto;
   position: relative;
   z-index: 10;
-  background-color: #FFF
+  background-color: #FFF;
+  clear: both;
 }
 
 #wrapup p {
@@ -430,4 +431,5 @@ div#professionals {
   position: relative;
   z-index: 10;
   background-color: #FFF;
+  clear: both;
 }
