@@ -409,17 +409,17 @@ div#professionals {
 }
 
 #wrapup p {
-  border: 1px solid green;
-  width: 50%;
+  width: 60%;
   margin: auto;
   margin-top: 20px;
   margin-bottom: 20px;
   font-size: 16px;
   letter-spacing: 2px;
   line-height: 1.6;
-  color: #F00;
+  color: #000;
   font-weight: 300;
-  clear: both;
+ 
+  justify-content: center;
 }
 
 /*
