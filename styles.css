@@ -304,8 +304,9 @@ div.student-text {
   height: 600px;
   position: relative;
   z-index: 1;
-  opacity: .2;
+  opacity: .0;
   transition-duration: 1.5s;
+  overflow: hidden;
 }
 
 #story-one-text {
@@ -389,6 +390,16 @@ div#professionals {
   z-index: 10;
   background: linear-gradient(#000,#FFF);
   color: #FFF;
+}
+
+#professionals p {
+  width: 50%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+#pro-paragraphs {
+  padding-top: 100px;
 }
 
 /*
