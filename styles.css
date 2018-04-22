@@ -1,3 +1,5 @@
+
+
 body {
   background-color: #000;
   margin: auto;
@@ -67,6 +69,7 @@ nav ul li a {
 #headline {
   position: relative;
   left: 8%;
+  width: 70vw;
 }
 
 #headline img {
@@ -301,12 +304,13 @@ div.student-text#story-one-text, div.student-text#story-two-text, div.student-te
   height: 600px;
   position: relative;
   z-index: 1;
-  opacity: .0;
+  opacity: .2;
   transition-duration: 1.5s;
 }
 
 div.student-text#story-one-text {
   top: 0;
+
 }
 
 .student-text#story-one-text.reveal {
@@ -385,7 +389,7 @@ div#professionals {
   position: relative;
   z-index: 10;
   background: linear-gradient(#000,#FFF);
-  clear: both;
+  color: #FFF;
 }
 
 /*
