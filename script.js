@@ -161,7 +161,7 @@ $('#seventh-anx div.next').on('click', function () {
 });
 
 //8 to 1
-$('#eighth-anx div.next').on('click', function () {
+$('#eighth-anx div.restart').on('click', function () {
    console.log('6');
   $('#eighth-anx').toggleClass('hidden');
   $('#first-anx').toggleClass('hidden');

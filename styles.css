@@ -221,7 +221,7 @@ div.next {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  height: 10px;
+  height: 15px;
 }
 
 div.next-arrow {
@@ -238,6 +238,17 @@ div.next-arrow {
 div.next-arrow:hover {
   border-right: 3px solid #FFF;
   border-top: 3px solid #FFF;
+}
+
+.restart p {
+  margin-bottom: 0;
+  color: #DD0000;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+
+.restart p:hover {
+  color: #FFF;
 }
 /* add captions to hover!!!!!!!!!!!*/
 
