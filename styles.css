@@ -221,7 +221,7 @@ div.next {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  height: 18%;
+  height: 10px;
 }
 
 div.next-arrow {
@@ -233,7 +233,7 @@ div.next-arrow {
   margin-right: 20px;
   cursor: pointer;
 }
-
+/* add captions to hover!!!!!!!!!!!*/
 
 /*
 ====================================================
