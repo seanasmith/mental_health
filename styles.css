@@ -172,7 +172,6 @@ div#interaction {
 div.interaction-module {
   width: 250px;
   height: 250px;
-  border: 1px solid #FFF;
   color: #FFF;
   transition-duration: 0.5s;
 }
@@ -203,7 +202,7 @@ div.interaction-module.hidden {
   color: #DD0000;
   font-style: italic;
   font-size: 2rem;
-  top: 28%;
+  top: 35%;
   cursor: pointer;
 }
 
@@ -249,6 +248,19 @@ div.next-arrow:hover {
 
 .restart p:hover {
   color: #FFF;
+}
+
+#internal-monologue {
+  position: relative;
+  top: -50px;
+  border: 1px solid limegreen;
+  width: 50%;
+  margin: auto;
+  color: #FFF;
+}
+
+#internal-monologue.down {
+  top: 10px;
 }
 /* add captions to hover!!!!!!!!!!!*/
 

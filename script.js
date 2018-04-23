@@ -137,6 +137,7 @@ $('#fourth-anx div.next').on('click', function () {
    console.log('5');
   $('#fourth-anx').toggleClass('hidden');
   $('#fifth-anx').toggleClass('hidden');
+  $('#internal-monologue').addClass('down');
 });
 
 //5 to 6
@@ -165,6 +166,7 @@ $('#eighth-anx div.restart').on('click', function () {
    console.log('6');
   $('#eighth-anx').toggleClass('hidden');
   $('#first-anx').toggleClass('hidden');
+  $('#internal-monologue').removeClass('down');
 });
 
 
