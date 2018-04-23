@@ -100,41 +100,36 @@ $(document).ready(function(){
 
 /*
 =========================================
-        interaction experience
+      interaction experience: clicks
 =========================================
 */
 
 //start to first module
 $('#start p').on('click', function () {
-  console.log('1');
   $('#first-anx').toggleClass('hidden');
   $('#start').toggleClass('hidden');
 });
 
 //module 1 to module 2
 $('#first-anx div.next').on('click', function () {
-   console.log('2');
   $('#first-anx').toggleClass('hidden');
   $('#second-anx').toggleClass('hidden');
 });
 
 //2 to 3
 $('#second-anx div.next').on('click', function () {
-   console.log('3');
   $('#second-anx').toggleClass('hidden');
   $('#third-anx').toggleClass('hidden');
 });
 
 //3 to 4
 $('#third-anx div.next').on('click', function () {
-   console.log('4');
   $('#third-anx').toggleClass('hidden');
   $('#fourth-anx').toggleClass('hidden');
 });
 
 //4 to 5
 $('#fourth-anx div.next').on('click', function () {
-   console.log('5');
   $('#fourth-anx').toggleClass('hidden');
   $('#fifth-anx').toggleClass('hidden');
   $('#internal-monologue').addClass('down');
@@ -142,31 +137,68 @@ $('#fourth-anx div.next').on('click', function () {
 
 //5 to 6
 $('#fifth-anx div.next').on('click', function () {
-   console.log('6');
   $('#fifth-anx').toggleClass('hidden');
   $('#sixth-anx').toggleClass('hidden');
 });
 
 //6 to 7
 $('#sixth-anx div.next').on('click', function () {
-   console.log('6');
   $('#sixth-anx').toggleClass('hidden');
   $('#seventh-anx').toggleClass('hidden');
 });
 
 //7 to 8
 $('#seventh-anx div.next').on('click', function () {
-   console.log('6');
   $('#seventh-anx').toggleClass('hidden');
   $('#eighth-anx').toggleClass('hidden');
 });
 
 //8 to 1
 $('#eighth-anx div.restart').on('click', function () {
-   console.log('6');
   $('#eighth-anx').toggleClass('hidden');
   $('#first-anx').toggleClass('hidden');
   $('#internal-monologue').removeClass('down');
 });
 
 
+/*
+=========================================
+      interaction experience: hovers
+=========================================
+*/
+
+//set event for arrow hover
+$('div.next-arrow').on('mouseover', function () { 
+  //get id from the hovered arrow
+  var monologue = $(this).attr('id');
+  
+  
+  //set the script used in inner-monologue to match the hovered arrow
+  
+  
+  
+  if (monologue == 1) {
+  //change inner-monologue text to 1
+  } else if (monologue == 2) {
+  //change inner-monologue text to 2
+  } else if (monologue == 3) {
+  //change inner-monologue text to 3
+  } else if (monologue == 4) {
+  //change inner-monologue text to 4
+  } else if (monologue == 5) {
+  //change inner-monologue text to 5
+  } else if (monologue == 6) {
+  //change inner-monologue text to 6
+  } else {
+  //change inner-monologue text to 7
+  };
+
+
+
+});
+
+$('div.restart').on('mouseover', function () { 
+  
+
+
+});
