@@ -146,9 +146,25 @@ $('#fifth-anx p.next').on('click', function () {
   $('#sixth-anx').toggleClass('hidden');
 });
 
-//6 to 1
+//6 to 7
 $('#sixth-anx p.next').on('click', function () {
    console.log('6');
   $('#sixth-anx').toggleClass('hidden');
+  $('#seventh-anx').toggleClass('hidden');
+});
+
+//7 to 8
+$('#seventh-anx p.next').on('click', function () {
+   console.log('6');
+  $('#seventh-anx').toggleClass('hidden');
+  $('#eighth-anx').toggleClass('hidden');
+});
+
+//8 to 1
+$('#eighth-anx p.next').on('click', function () {
+   console.log('6');
+  $('#eighth-anx').toggleClass('hidden');
   $('#first-anx').toggleClass('hidden');
 });
+
+

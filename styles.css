@@ -178,7 +178,7 @@ div.interaction-module {
 }
 
 div.interaction-module.hidden {
-  opacity: 0.5;
+  opacity: 0;
   transition-duration: 0.5s;
 }
 
@@ -187,6 +187,10 @@ div.interaction-module.hidden {
   position: relative;
   top: 40%;
   z-index: 100;
+}
+
+#start.hidden {
+  display: none;
 }
 
 #start p {
@@ -204,47 +208,14 @@ div.interaction-module.hidden {
 }
 
 #module-holder {
-  width: 100vw;
+  width: 70vw;
+  margin: auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
 }
 
-#first-anx {
-  position: relative;
-  
-}
-
-#second-anx {
-  position: relative;
-  
-  left: 15%;
-}
-
-#third-anx {
-  position: relative;
-  
-  left: 30%;
-}
-
-#fourth-anx {
-  position: relative;
-  
-  left: 45%;
-}
-
-#fifth-anx {
-  position: relative;
-  
-  left: 60%;
-}
-
-#sixth-anx {
-  position: relative;
-  
-  left: 75%;
-}
 
 /*
 ====================================================
