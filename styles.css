@@ -232,6 +232,12 @@ div.next-arrow {
   transform: rotate(45deg);
   margin-right: 20px;
   cursor: pointer;
+  transition-duration: .5s;
+}
+
+div.next-arrow:hover {
+  border-right: 3px solid #FFF;
+  border-top: 3px solid #FFF;
 }
 /* add captions to hover!!!!!!!!!!!*/
 
