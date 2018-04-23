@@ -173,24 +173,25 @@ $('div.next-arrow').on('mouseover', function () {
   var monologue = $(this).attr('id');
   
   
-  //set the script used in inner-monologue to match the hovered arrow
+  //set the script used in internal-monologue to match the hovered arrow
   
   
   
   if (monologue == 1) {
-  //change inner-monologue text to 1
+  //
+    $('div#internal-monologue p').text('hey boi');
   } else if (monologue == 2) {
-  //change inner-monologue text to 2
+  //change internal-monologue text to 2
   } else if (monologue == 3) {
-  //change inner-monologue text to 3
+  //change internal-monologue text to 3
   } else if (monologue == 4) {
-  //change inner-monologue text to 4
+  //change internal-monologue text to 4
   } else if (monologue == 5) {
-  //change inner-monologue text to 5
+  //change internal-monologue text to 5
   } else if (monologue == 6) {
-  //change inner-monologue text to 6
+  //change internal-monologue text to 6
   } else {
-  //change inner-monologue text to 7
+  //change internal-monologue text to 7
   };
 
 
@@ -198,7 +199,27 @@ $('div.next-arrow').on('mouseover', function () {
 });
 
 $('div.restart').on('mouseover', function () { 
-  
+  //set internal-monologue to script that matches restart hover 
 
+
+});
+
+
+/*
+==========================================================
+      interaction experience: remove text on mouseout
+==========================================================
+*/
+
+$('div.next-arrow').on('mouseout', function () { 
+
+  $('div#internal-monologue p').text('');
+
+
+});
+
+$('div.restart').on('mouseout', function () { 
+  
+  $('div#internal-monologue p').text('');
 
 });
