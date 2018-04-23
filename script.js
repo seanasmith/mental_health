@@ -161,6 +161,13 @@ $('#eighth-anx div.restart').on('click', function () {
 });
 
 
+
+//clears monologue when arrow is clicked (otherwise, it remains till mouse is moved from spot where arrow was when hovered)
+$('div.next').on('click', function () {
+  $('div#internal-monologue p').text('');
+});
+
+
 /*
 =========================================
       interaction experience: hovers
@@ -178,20 +185,40 @@ $('div.next-arrow').on('mouseover', function () {
   
   
   if (monologue == 1) {
-  //
+    
+  //change internal-monologue text to 1
     $('div#internal-monologue p').text('hey boi');
+    
   } else if (monologue == 2) {
+    
   //change internal-monologue text to 2
+    $('div#internal-monologue p').text('hey boi2');
+    
   } else if (monologue == 3) {
+    
   //change internal-monologue text to 3
+    $('div#internal-monologue p').text('hey boi3');
+    
   } else if (monologue == 4) {
+    
   //change internal-monologue text to 4
+    $('div#internal-monologue p').text('hey boi4');
+    
   } else if (monologue == 5) {
+    
   //change internal-monologue text to 5
+    $('div#internal-monologue p').text('hey boi5');
+    
   } else if (monologue == 6) {
+    
   //change internal-monologue text to 6
+    $('div#internal-monologue p').text('hey boi6');
+    
   } else {
+    
   //change internal-monologue text to 7
+    $('div#internal-monologue p').text('hey boi7');
+    
   };
 
 
@@ -200,6 +227,7 @@ $('div.next-arrow').on('mouseover', function () {
 
 $('div.restart').on('mouseover', function () { 
   //set internal-monologue to script that matches restart hover 
+  $('div#internal-monologue p').text('hey boi8');
 
 
 });

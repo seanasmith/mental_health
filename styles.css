@@ -253,10 +253,10 @@ div.next-arrow:hover {
 #internal-monologue {
   position: relative;
   top: -50px;
-  border: 1px solid limegreen;
   width: 50%;
   margin: auto;
-  color: #FFF;
+  color: #ccc;
+  font-style: italic;
 }
 
 #internal-monologue.down {
