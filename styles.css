@@ -175,11 +175,10 @@ div.interaction-module {
   border: 1px solid #FFF;
   color: #FFF;
   transition-duration: 0.5s;
-  display: block;
 }
 
 div.interaction-module.hidden {
-  opacity: 0;
+  opacity: 0.5;
   transition-duration: 0.5s;
 }
 
@@ -204,38 +203,46 @@ div.interaction-module.hidden {
   cursor: pointer;
 }
 
+#module-holder {
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
 #first-anx {
   position: relative;
-  top: 30%;
+  
 }
 
 #second-anx {
   position: relative;
-  top: -60%;
+  
   left: 15%;
 }
 
 #third-anx {
   position: relative;
-  top: -60%;
+  
   left: 30%;
 }
 
 #fourth-anx {
   position: relative;
-  top: -120%;
+  
   left: 45%;
 }
 
 #fifth-anx {
   position: relative;
-  top: -150%;
+  
   left: 60%;
 }
 
 #sixth-anx {
   position: relative;
-  top: -200%;
+  
   left: 75%;
 }
 
