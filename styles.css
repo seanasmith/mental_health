@@ -183,9 +183,12 @@ div.interaction-module.hidden {
 }
 
 #start {
+  width: 100vw;
+  height: 100vh;
   margin: auto;
   position: relative;
   z-index: 100;
+  text-align: center;
 }
 
 #start.hidden {
@@ -193,7 +196,7 @@ div.interaction-module.hidden {
 }
 
 #start p {
-  color:
+  color: white;
   text-align: center;
   position: relative;
   top: 40%;
@@ -203,7 +206,7 @@ div.interaction-module.hidden {
   color: #DD0000;
   font-style: italic;
   font-size: 2rem;
-  top: 35%;
+  top: 37%;
   cursor: pointer;
 }
 
