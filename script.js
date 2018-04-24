@@ -202,22 +202,22 @@ $('div.next-arrow').on('mouseover', function () {
   } else if (monologue == 4) {
     
   //change internal-monologue text to 4
-    $('div#internal-monologue p').text('hey boi4');
+    $('div#internal-monologue p').text("That time in high school, you didn't eat before trying to go to sleep...maybe you just need food. But how are you supposed to eat with such an upset stomach?");
     
   } else if (monologue == 5) {
     
   //change internal-monologue text to 5
-    $('div#internal-monologue p').text('hey boi5');
+    $('div#internal-monologue p').text("Maybe the tea will be enough. Just hold out till the flight and try and sleep on the plane. It's a long flight to L.A., so maybe that'll save you.");
     
   } else if (monologue == 6) {
     
   //change internal-monologue text to 6
-    $('div#internal-monologue p').text('hey boi6');
+    $('div#internal-monologue p').text("Ok, but what if you get sick on the plane...you can't go hide in the bathroom, and vomitting isn't the quietest thing in the world. And you try and get up during taxiing or takeoff, so you're stuck here.");
     
   } else {
     
   //change internal-monologue text to 7
-    $('div#internal-monologue p').text('hey boi7');
+    $('div#internal-monologue p').text("Why is it so hot in here? I know it's Texas in June, but it's 2017, this plane's A/C should be working. Just breathe, everything will be fine...");
     
   };
 
@@ -227,7 +227,7 @@ $('div.next-arrow').on('mouseover', function () {
 
 $('div.restart').on('mouseover', function () { 
   //set internal-monologue to script that matches restart hover 
-  $('div#internal-monologue p').text('hey boi8');
+  $('div#internal-monologue p').text("It doesn't seem like too many people noticed, but you need to calm down or this trip will be hell. How're you suppossed to eat at all the cool L.A. restaurants if you can't keep any food down?");
 
 
 });
