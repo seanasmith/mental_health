@@ -437,12 +437,10 @@ div#professionals {
   position: relative;
   z-index: 10;
   background-color: #FFF;
-  top: -20px;
 }
 
 #wrapup p {
-  width: 50%;
-  margin: auto;
+  width: 100%;
   margin-top: 20px;
   margin-bottom: 20px;
   font-size: 14px;
@@ -450,6 +448,13 @@ div#professionals {
   line-height: 1.6;
   color: #000;
   font-weight: 300;
+}
+
+#float-me-left {
+  float: left;
+  width: 45%;
+  margin-left: 5%;
+  
 }
 
 /*
