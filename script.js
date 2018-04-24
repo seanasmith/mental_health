@@ -187,7 +187,7 @@ $('div.next-arrow').on('mouseover', function () {
   if (monologue == 1) {
     
   //change internal-monologue text to 1
-    $('div#internal-monologue p').text('hey boi');
+    $('div#internal-monologue').text("Remember that time senior year of high school when you got two hours of sleep on the spring trip and couldn't stop throwing up on the bus?");
     
   } else if (monologue == 2) {
     
