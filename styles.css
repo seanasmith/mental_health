@@ -8,6 +8,15 @@ body {
   margin: auto;
 }
 
+hr {
+  border: none;
+  height: 40px;
+  width: 100%;
+  margin: auto;
+  background-image: url(https://cdn.glitch.com/055eb7aa-bb22-412e-861e-7b9a86a1293f%2Fscribble2.gif?1524602351942);
+  background-size: contain;
+}
+
 .dropcap {
   color: #F00;
   font-size: 5rem;
