@@ -104,12 +104,18 @@ h1#panic {
 
 #open p {
   position: relative;
-  width: 50%;
+  width: 55%;
   font-size: 14px;
   letter-spacing: 2px;
   line-height: 1.6;
   color: #FFF;
   font-weight: 300;
+}
+
+#open p a {
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 2px solid #D00;
 }
 
 div#divide-orange {
