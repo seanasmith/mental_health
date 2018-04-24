@@ -187,17 +187,17 @@ $('div.next-arrow').on('mouseover', function () {
   if (monologue == 1) {
     
   //change internal-monologue text to 1
-    $('div#internal-monologue').text("Remember that time senior year of high school when you got two hours of sleep on the spring trip and couldn't stop throwing up on the bus?");
+    $('div#internal-monologue p').text("Remember that time senior year of high school when you got two hours of sleep on the spring trip and couldn't stop throwing up on the bus? And how everyone kept staring at you?");
     
   } else if (monologue == 2) {
     
   //change internal-monologue text to 2
-    $('div#internal-monologue p').text('hey boi2');
+    $('div#internal-monologue p').text("What if it's like that on the plane? Or in the airport? What if you're so nervous you can't drive the rental car?");
     
   } else if (monologue == 3) {
     
   //change internal-monologue text to 3
-    $('div#internal-monologue p').text('hey boi3');
+    $('div#internal-monologue p').text("The last time you checked your phone last night was 4:30...that means you could've gotten up to an hour and a half of sleep...great.");
     
   } else if (monologue == 4) {
     
@@ -241,7 +241,7 @@ $('div.restart').on('mouseover', function () {
 
 $('div.next-arrow').on('mouseout', function () { 
 
-  $('div#internal-monologue p').text('');
+  $('div#internal-monologue p').text("");
 
 
 });
