@@ -113,8 +113,8 @@ h1#panic {
 }
 
 div#divide-orange {
-  position: absolute;
-  top: 00px;
+  position: relative;
+  top: -120px;
   width: 30px;
   height: 30px;
   border-bottom: 2px solid orange;
@@ -164,9 +164,10 @@ hr {
 */
 
 div#interaction {
-  height: 90vh;
+  height: 100vh;
   position: relative;
-  background-color: #000;
+  background-color: #000;  
+  
 }
 
 div.interaction-module {
@@ -184,7 +185,6 @@ div.interaction-module.hidden {
 #start {
   margin: auto;
   position: relative;
-  top: 40%;
   z-index: 100;
 }
 
@@ -193,6 +193,7 @@ div.interaction-module.hidden {
 }
 
 #start p {
+  color:
   text-align: center;
   position: relative;
   top: 40%;
@@ -214,7 +215,6 @@ div.interaction-module.hidden {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  border: 1px solid limegreen;
 }
 
 div.next {
