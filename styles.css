@@ -113,8 +113,8 @@ h1#panic {
 }
 
 div#divide-orange {
-  position: relative;
-  top: -120px;
+  position: absolute;
+  top: 00px;
   width: 30px;
   height: 30px;
   border-bottom: 2px solid orange;
@@ -208,12 +208,13 @@ div.interaction-module.hidden {
 
 #module-holder {
   padding-top: 40px;
-  width: 70vw;
+  width: 80vw;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  border: 1px solid limegreen;
 }
 
 div.next {
