@@ -173,6 +173,7 @@ div#interaction {
   height: 100vh;
   position: relative;
   background-color: #000;  
+  border-top: 10px dashed #555;
   
 }
 
