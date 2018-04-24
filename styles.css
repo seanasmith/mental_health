@@ -10,11 +10,12 @@ body {
 
 hr {
   border: none;
-  height: 40px;
-  width: 100%;
+  height: 30px;
+  width: 75%;
   margin: auto;
   background-image: url(https://cdn.glitch.com/055eb7aa-bb22-412e-861e-7b9a86a1293f%2Fscribble2.gif?1524602351942);
   background-size: contain;
+  opacity: 0.7;
 }
 
 .dropcap {
@@ -163,14 +164,7 @@ div#divide-red {
   transform: rotate(45deg)
 }
 
-hr {
-  position: relative;
-  margin-top: 75px;
-  margin-bottom: 75px;
-  width: 30%;
-  border-color: red;
-  opacity: .8;
-}
+
 
 /*
 ====================================================
@@ -179,11 +173,9 @@ hr {
 */
 
 div#interaction {
-  height: 100vh;
+  height: 80vh;
   position: relative;
-  background-color: #000;  
-  border-top: 10px dashed #555;
-  
+  background-color: #000;    
 }
 
 div.interaction-module {

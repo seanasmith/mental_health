@@ -188,25 +188,25 @@ $('div.next-arrow').on('mouseover', function () {
   
   if (monologue == 1) {
   //change internal-monologue text to 1
-    $('div#internal-monologue p').text("Remember that time senior year of high school when you got two hours of sleep on the spring trip and couldn't stop throwing up on the bus? And how everyone kept staring at you?");
+    $('div#internal-monologue p').html("<img src='https://cdn.glitch.com/055eb7aa-bb22-412e-861e-7b9a86a1293f%2Fscribble2.gif?1524602351942' style='width: 50px; float: left;' /><p>Remember that time senior year of high school when you got two hours of sleep on the spring trip and couldn't stop throwing up on the bus? And how everyone kept staring at you?</p>");
   } else if (monologue == 2) {   
   //change internal-monologue text to 2
-    $('div#internal-monologue p').text("What if it's like that on the plane? Or in the airport? What if you're so nervous you can't drive the rental car?");   
+    $('div#internal-monologue p').html("<img src='https://cdn.glitch.com/055eb7aa-bb22-412e-861e-7b9a86a1293f%2Fscribble2.gif?1524602351942' style='width: 50px; float: left;' /><p>What if it's like that on the plane? Or in the airport? What if you're so nervous you can't drive the rental car?</p>");   
   } else if (monologue == 3) {   
   //change internal-monologue text to 3
-    $('div#internal-monologue p').text("The last time you checked your phone last night was 4:30...that means you could've gotten up to an hour and a half of sleep...great.");  
+    $('div#internal-monologue p').html("<img src='https://cdn.glitch.com/055eb7aa-bb22-412e-861e-7b9a86a1293f%2Fscribble2.gif?1524602351942' style='width: 50px; float: left;' /><p>The last time you checked your phone last night was 4:30...that means you could've gotten up to an hour and a half of sleep...great.</p>");  
   } else if (monologue == 4) {    
   //change internal-monologue text to 4
-    $('div#internal-monologue p').text("That time in high school, you didn't eat before trying to go to sleep...maybe you just need food. But how are you supposed to eat with such an upset stomach?");
+    $('div#internal-monologue p').html("<img src='https://cdn.glitch.com/055eb7aa-bb22-412e-861e-7b9a86a1293f%2Fscribble2.gif?1524602351942' style='width: 50px; float: left;' /><p>That time in high school, you didn't eat before trying to go to sleep...maybe you just need food. But how are you supposed to eat with such an upset stomach?</p>");
   } else if (monologue == 5) {
   //change internal-monologue text to 5
-    $('div#internal-monologue p').text("Maybe the tea will be enough. Just hold out till the flight and try and sleep on the plane. It's a long flight to L.A., so maybe that'll save you.");  
+    $('div#internal-monologue p').html("<img src='https://cdn.glitch.com/055eb7aa-bb22-412e-861e-7b9a86a1293f%2Fscribble2.gif?1524602351942' style='width: 50px; float: left;' /><p>Maybe the tea will be enough. Just hold out till the flight and try and sleep on the plane. It's a long flight to L.A., so maybe that'll save you.</p>");  
   } else if (monologue == 6) {
   //change internal-monologue text to 6
-    $('div#internal-monologue p').text("Ok, but what if you get sick on the plane...you can't go hide in the bathroom, and vomitting isn't the quietest thing in the world. And you try and get up during taxiing or takeoff, so you're stuck here.");
+    $('div#internal-monologue p').html("<img src='https://cdn.glitch.com/055eb7aa-bb22-412e-861e-7b9a86a1293f%2Fscribble2.gif?1524602351942' style='width: 50px; float: left;' /><p>Ok, but what if you get sick on the plane...you can't go hide in the bathroom, and vomitting isn't the quietest thing in the world. And you try and get up during taxiing or takeoff, so you're stuck here.</p>");
   } else {
   //change internal-monologue text to 7
-    $('div#internal-monologue p').text("Why is it so hot in here? You know it's Texas in June, but it's 2017, this plane's A/C should be working. Just breathe, everything will be fine...");
+    $('div#internal-monologue p').html("<img src='https://cdn.glitch.com/055eb7aa-bb22-412e-861e-7b9a86a1293f%2Fscribble2.gif?1524602351942' style='width: 50px; float: left;' /><p>Why is it so hot in here? You know it's Texas in June, but it's 2017, this plane's A/C should be working. Just breathe, everything will be fine...</p>");
   };
 });
 
@@ -214,7 +214,7 @@ $('div.next-arrow').on('mouseover', function () {
 
 $('div.restart').on('mouseover', function () { 
   //set internal-monologue to script that matches restart hover 
-  $('div#internal-monologue p').text("It doesn't seem like too many people noticed, but you need to calm down or this trip will be hell. You don't want a repeat of that trip senior year, or the trip to Chicago, or to Tennessee...");
+  $('div#internal-monologue p').html("<img src='https://cdn.glitch.com/055eb7aa-bb22-412e-861e-7b9a86a1293f%2Fscribble2.gif?1524602351942' style='width: 50px; float: left;' /><p>It doesn't seem like too many people noticed, but you need to calm down or this trip will be hell. You don't want a repeat of that trip senior year, or the trip to Chicago, or to Tennessee...</p>");
 });
 
 
