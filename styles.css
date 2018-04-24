@@ -164,6 +164,17 @@ div#divide-red {
   transform: rotate(45deg)
 }
 
+span.depression {
+  color: #FFA500;
+}
+
+span.anxiety {
+  color: #D00;
+}
+
+span.panic {
+  color: #00ffdd;
+}
 
 
 /*
@@ -445,7 +456,6 @@ div#professionals {
 */
 
 #wrapup {
-  border: 1px solid yellow;
   height: 100vh;
   width: 100%;
   margin: auto;
@@ -473,7 +483,6 @@ div#professionals {
 */
 
 #end {
-  border: 1px solid violet;
   width: 100%;
   margin: auto;
   height: 90vh;
