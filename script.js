@@ -217,7 +217,7 @@ $('div.next-arrow').on('mouseover', function () {
   } else {
     
   //change internal-monologue text to 7
-    $('div#internal-monologue p').text("Why is it so hot in here? I know it's Texas in June, but it's 2017, this plane's A/C should be working. Just breathe, everything will be fine...");
+    $('div#internal-monologue p').text("Why is it so hot in here? You know it's Texas in June, but it's 2017, this plane's A/C should be working. Just breathe, everything will be fine...");
     
   };
 
