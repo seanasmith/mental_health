@@ -65,7 +65,7 @@ nav ul li a {
 */
 
 #open {
-  height: 90vh;
+  height: 80vh;
   width: 100%;
   background: #000;
   top: -15px;
@@ -78,38 +78,12 @@ nav ul li a {
   position: relative;
   left: 8%;
   width: 70vw;
+  margin-top: 40px;
 }
 
 #headline img {
+  
   width: 50vw;
-}
-
-h1 {
-  font-family: 'Helvetica', 'arial', sans-serif;
-  font-size: 9rem;
-  position: absolute;
-  z-index: 2;
-  opacity: 0.7;
-  color: #DD0000;
-  left: 7%;
-}
-
-h1#depression {
-  position: absolute;
-  z-index: 3;
-  color: #FFA500;
-  opacity: 0.6;
-  left: 6.5%;
-}
-
-h1#panic {
-  position: absolute;
-  z-index: 1;
-  color: #00ffdd;
-  opacity: 0.6;
-  text-align: right;
-  width: 55%;
-  left: 6.5%;
 }
 
 #open p {
@@ -120,6 +94,7 @@ h1#panic {
   line-height: 1.6;
   color: #FFF;
   font-weight: 300;
+  margin-top: 40px;
 }
 
 #open p a {
@@ -462,6 +437,7 @@ div#professionals {
   position: relative;
   z-index: 10;
   background-color: #FFF;
+  top: -20px;
 }
 
 #wrapup p {
@@ -490,4 +466,5 @@ div#professionals {
   z-index: 10;
   background-color: #FFF;
   clear: both;
+  top: -40px;
 }
