@@ -25,7 +25,9 @@ hr {
   line-height: 60px;
   padding: 10px 10px 10px 10px;
   margin: 0 10px 5px 0;
-  border: 1px solid #F00;
+  box-shadow: 0 0 0 2px #D00,
+              0 0 0 4px #aC8C37,
+              0 0 0 6px #4DAA91;
 }
 
 nav {
@@ -232,7 +234,7 @@ div.next-arrow:hover {
 */
 
 div#intro p {
-  width: 50%;
+  width: 45%;
   margin: auto;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -408,7 +410,7 @@ div#professionals {
 }
 
 #professionals p {
-  width: 50%;
+  width: 45%;
   margin: auto;
   margin-bottom: 20px;
   font-size: 14px;
@@ -448,7 +450,7 @@ div#professionals {
 }
 
 #wrapup p {
-  width: 50%;
+  width: 45%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
