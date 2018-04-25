@@ -103,42 +103,6 @@ nav ul li a {
   border-bottom: 2px solid #D00;
 }
 
-div#divide-orange {
-  position: relative;
-  top: -120px;
-  width: 30px;
-  height: 30px;
-  border-bottom: 2px solid orange;
-  border-right: 2px solid orange;
-  opacity: .6;
-  margin: auto;
-  transform: rotate(45deg)  
-}
-
-div#divide-blue {
-  position: relative;
-  top: -140px;
-  width: 30px;
-  height: 30px;
-  border-bottom: 2px solid aquamarine;
-  border-right: 2px solid aquamarine;
-  opacity: .6;
-  margin: auto;
-  transform: rotate(45deg)
-}
-
-div#divide-red {
-  position: relative;
-  top: -160px;
-  width: 30px;
-  height: 30px;
-  border-bottom: 2px solid red;
-  border-right: 2px solid red;
-  opacity: .6;
-  margin: auto;
-  transform: rotate(45deg)
-}
-
 
 /*
 ====================================================
@@ -307,8 +271,16 @@ div.portrait p {
   position: relative;
 }
 
-div.portrait.left p {
+#label-one {
  color: #D00;
+}
+
+#label-two {
+
+}
+
+#label-three {
+
 }
 
 div.portrait p.hidden {

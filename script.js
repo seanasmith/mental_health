@@ -40,15 +40,20 @@ $('.close').on('click', function () {
 */
 
 $('.portrait').on('mouseover', function () {
-  var hoveredPortrait = 
+  var hoveredPortrait = $(this).attr('id');
   
-  if ()
-  $('.portrait p').toggleClass('hidden');
+  if (hoveredPortrait == 'first-story') {
+    $('#label-one').toggleClass('hidden');
+  } else if (hoveredPortrait == 'second-story') {
+    $('#label-two').toggleClass('hidden');    
+  } else {
+    $('#label-three').toggleClass('hidden');
+  };
 });
 
 
 $('.portrait').on('mouseout', function () {
-  $('.portrait p').toggleClass('hidden');
+  $('.portrait p').addClass('hidden');
 });
 
 
