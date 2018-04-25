@@ -246,7 +246,7 @@ div#intro p {
 
 div#students {
   position: relative;
-  height: 90vh;
+  height: 110vh;
   text-align: center;
   z-index: 1;
   width: 80%;
@@ -271,6 +271,18 @@ div.portrait p {
   position: relative;
 }
 
+div#labels {
+  border: 1px solid white;
+  display: flex;
+  justify-content: space-around;
+  font-size: 2.5em;
+  font-style: italic;
+  text-align: left;
+  
+  position: relative;
+  z-index: 200;
+}
+
 #label-one {
  color: #D00;
 }
@@ -284,7 +296,7 @@ div.portrait p {
 }
 
 div#labels p.hidden {
-  display: none;
+  opacity: 0;
 }
 
 div#students div.portrait.left {
@@ -390,7 +402,7 @@ div#professionals {
   height: 100vh;
   position: relative;
   z-index: 10;
-  background: linear-gradient(#000,#FFF);
+  background: linear-gradient(#000,#888);
   color: #FFF;
 }
 
@@ -425,7 +437,7 @@ div#professionals {
   margin: auto;
   position: relative;
   z-index: 10;
-  background-color: #FFF;
+   background: linear-gradient(#888,#fff);
   padding-top: 40px;
 }
 

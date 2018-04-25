@@ -53,7 +53,8 @@ $('.portrait').on('mouseover', function () {
 
 
 $('.portrait').on('mouseout', function () {
-  $('#label p').addClass('hidden');
+  console.log('!')
+  $('#labels p').addClass('hidden');
 });
 
 
