@@ -300,12 +300,15 @@ div.portrait:hover {
 }
 
 div.portrait p {
-  color: #D00;
   font-family: 'Helvetica', 'Arial', sans-serif;
   font-style: italic;
   font-size: 3em;
   top: -250px; 
   position: relative;
+}
+
+div.portrait.left p {
+ color: #D00;
 }
 
 div.portrait p.hidden {

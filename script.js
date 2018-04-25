@@ -40,9 +40,16 @@ $('.close').on('click', function () {
 */
 
 $('.portrait').on('mouseover', function () {
+  var hoveredPortrait = 
+  
+  if ()
   $('.portrait p').toggleClass('hidden');
 });
 
+
+$('.portrait').on('mouseout', function () {
+  $('.portrait p').toggleClass('hidden');
+});
 
 
 
