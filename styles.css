@@ -373,7 +373,7 @@ div.student-text p.text {
 }
 
 div.popup-text {
-  height: 600px;
+  height: 500px;
   overflow: scroll;
   margin-top: 40px;
 }
