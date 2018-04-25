@@ -393,7 +393,7 @@ div.popup-text {
 
 /*
 ====================================================
-               professional features
+                   professional
 ====================================================
 */
 
@@ -403,7 +403,7 @@ div#professionals {
   height: 100vh;
   position: relative;
   z-index: 10;
-  background: linear-gradient(#000,#999);
+  background: linear-gradient(#000,#aaa);
   color: #FFF;
 }
 
@@ -411,6 +411,10 @@ div#professionals {
   width: 50%;
   margin: auto;
   margin-bottom: 20px;
+  font-size: 14px;
+  letter-spacing: 2px;
+  line-height: 1.6;
+  font-weight: 300;
 }
 
 #pro-paragraphs {
@@ -438,12 +442,13 @@ div#professionals {
   margin: auto;
   position: relative;
   z-index: 10;
-   background: linear-gradient(#999,#fff);
+   background: linear-gradient(#aaa,#fff);
   padding-top: 40px;
+  
 }
 
 #wrapup p {
-  width: 45%;
+  width: 50%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
@@ -452,7 +457,7 @@ div#professionals {
   letter-spacing: 2px;
   line-height: 1.6;
   color: #000;
-  font-weight: 300;
+ 
 }
 
 
