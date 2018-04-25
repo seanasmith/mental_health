@@ -253,7 +253,6 @@ div#students {
 }
 
 div#students div.portrait {
-  margin-top: 80px;
   width: 30%;
   display: inline-block;
   cursor: pointer;
@@ -264,21 +263,13 @@ div.portrait img:hover {
   opacity: 0.5;
 }
 
-div.portrait p {
-  font-family: 'Helvetica', 'Arial', sans-serif;
-  font-style: italic;
-  font-size: 3em;
-  position: relative;
-}
-
 div#labels {
-  border: 1px solid white;
   display: flex;
   justify-content: space-around;
   font-size: 2.5em;
-  font-style: italic;
-  text-align: left;
-  
+  font-style
+  text-align: center;
+  font-family: 'Helvetica', 'Arial', sans-serif;
   position: relative;
   z-index: 200;
 }
@@ -402,7 +393,7 @@ div#professionals {
   height: 100vh;
   position: relative;
   z-index: 10;
-  background: linear-gradient(#000,#888);
+  background: linear-gradient(#000,#999);
   color: #FFF;
 }
 
@@ -437,12 +428,14 @@ div#professionals {
   margin: auto;
   position: relative;
   z-index: 10;
-   background: linear-gradient(#888,#fff);
+   background: linear-gradient(#999,#fff);
   padding-top: 40px;
 }
 
 #wrapup p {
-  width: 100%;
+  width: 45%;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 20px;
   margin-bottom: 20px;
   font-size: 14px;
@@ -452,12 +445,7 @@ div#professionals {
   font-weight: 300;
 }
 
-#float-me-left {
-  float: left;
-  width: 45%;
-  margin-left: 10%;
-  
-}
+
 
 /*
 ====================================================
