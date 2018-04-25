@@ -302,7 +302,7 @@ div#students {
 
 div#students div.portrait {
   margin-top: 80px;
-  width: 33%;
+  width: 30%;
   display: inline-block;
   cursor: pointer;
 }
