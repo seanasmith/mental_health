@@ -403,7 +403,7 @@ div.popup-text {
 div#professionals {
   width: 100%;
   margin: auto;
-  height: 100vh;
+  height: 140vh;
   position: relative;
   z-index: 10;
   background: linear-gradient(#000,#aaa);
@@ -427,10 +427,12 @@ div#professionals {
 #pro-image {
   margin: auto;
   width: 60%;
+  
 }
 
 #pro-image img {
   width: 100%;
+  
 }
 
 /*
