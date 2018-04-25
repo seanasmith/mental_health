@@ -417,6 +417,10 @@ div#professionals {
   width: 60%;
 }
 
+#pro-image img {
+  width: 100%;
+}
+
 /*
 ====================================================
                      wrap up
@@ -430,6 +434,7 @@ div#professionals {
   position: relative;
   z-index: 10;
   background-color: #FFF;
+  padding-top: 40px;
 }
 
 #wrapup p {

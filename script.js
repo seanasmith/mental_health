@@ -233,3 +233,61 @@ $('div.next-arrow').on('mouseout', function () {
 $('div.restart').on('mouseout', function () {   
   $('div#internal-monologue p').text('');
 });
+
+
+
+
+/*
+==========================================================
+      char
+==========================================================
+*/
+
+
+
+var trace1 = {
+  x: [1, 2, 3, 4], // x is an array of values for the x-axis.
+  y: [10, 15, 13, 17], // y is an array of values corresponding to the provided x values.
+  type: 'bar', 
+  name: 'Min. Temp.',
+};
+
+
+var trace2 = {
+  x: [1, 2, 3, 4], // x is an array of values for the x-axis.
+  y: [15, 20, 23, 22], // y is an array of values corresponding to the provided x values.
+  type: 'bar', 
+  name: 'Max. Temp.',
+};
+var trace3 = {
+  x: [1, 2, 3, 4], // x is an array of values for the x-axis.
+  y: [16, 21, 25, 26], // y is an array of values corresponding to the provided x values.
+  type: 'bar', 
+  name: 'Mid. Temp.',
+};
+
+  
+
+
+// Create the data object as an array of our data series objects:
+var data = [trace1, trace2, trace3];
+
+// The layout object provides options for how our visualization will appear:
+var layout = {
+  title:'Bar Chart Example',
+  showlegend: true,
+  yaxis: {
+    title: 'Temperature'
+  },
+  xaxis: {
+    title: 'Month',
+    tickvals: ["1","2","3","4"], // These should correspond to the x values in your data series objects
+    ticktext: ["April","May","June","July"] 
+  }
+}
+
+var options = {
+ staticPlot: true, // disable zoom, save and other toolbar options
+}
+
+Plotly.newPlot('viz', data, layout, options);
