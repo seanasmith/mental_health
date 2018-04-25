@@ -142,6 +142,11 @@ div.interaction-module.hidden {
   text-align: center;
 }
 
+#start span {
+  border: 2px solid #D00;
+  padding: 20px;
+}
+
 #start.hidden {
   display: none;
 }
@@ -370,6 +375,7 @@ div.student-text p.text {
 div.popup-text {
   height: 600px;
   overflow: scroll;
+  margin-top: 40px;
 }
 
 .close {
