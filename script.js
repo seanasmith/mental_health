@@ -35,6 +35,19 @@ $('.close').on('click', function () {
 
 /*
 =========================================
+      close student feature popup
+=========================================
+*/
+
+$('.portrait').on('mouseover', function () {
+  $('.portrait p').toggleClass('hidden');
+});
+
+
+
+
+/*
+=========================================
       smooth scroll to section divs
 =========================================
 */

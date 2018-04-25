@@ -293,7 +293,23 @@ div#students div.portrait {
   width: 30%;
   display: inline-block;
   cursor: pointer;
-  border: 1px solid #666;
+}
+
+div.portrait:hover {
+  opacity: .5;
+}
+
+div.portrait p {
+  color: #D00;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  font-style: italic;
+  font-size: 3em;
+  top: -250px; 
+  position: relative;
+}
+
+div.portrait p.hidden {
+  display: none;
 }
 
 div#students div.portrait.left {
