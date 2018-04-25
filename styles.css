@@ -323,6 +323,7 @@ div.student-text {
   opacity: .0;
   transition-duration: 1.5s;
   overflow: hidden;
+  border: 1px solid #888;
 }
 
 #story-one-text {
