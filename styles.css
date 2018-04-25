@@ -465,10 +465,26 @@ div#professionals {
 #end {
   width: 100%;
   margin: auto;
-  height: 90vh;
+  height: 20vh;
   position: relative;
   z-index: 10;
   background-color: #FFF;
   clear: both;
-  top: -40px;
+  top: 0px;
+}
+
+#end p {
+  width: 70%;
+  margin: auto;
+  line-height: 1.6;
+}
+
+#end a {
+  color: #000;
+  text-decoration: none;
+  border-bottom: 3px solid #d00;
+}
+
+#end img {
+  margin-bottom: 20px;
 }
