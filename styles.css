@@ -19,15 +19,15 @@ hr {
 }
 
 .dropcap {
-  color: #F00;
+  color: #D00;
   font-size: 5rem;
   float: left;
   line-height: 60px;
   padding: 10px 10px 10px 10px;
-  margin: 0 10px 5px 0;
-  box-shadow: 0 0 0 2px #D00,
-              0 0 0 4px #aC8C37,
-              0 0 0 6px #4DAA91;
+  margin: 15px 20px 5px 10px;
+  box-shadow: 0 0 0 3px #D00,
+              0 0 0 6px #FFA500,
+              0 0 0 9px #4DAA91;
 }
 
 nav {
@@ -163,8 +163,8 @@ div.interaction-module.hidden {
 #start p:hover {
   color: #DD0000;
   font-style: italic;
-  font-size: 2rem;
-  top: 37%;
+  font-size: 1.3rem;
+  top: 39%;
   cursor: pointer;
 }
 
@@ -290,7 +290,7 @@ div#labels {
 }
 
 #label-two {
-  color: #9B6B26;
+  color: #FFA500;
 }
 
 #label-three {
