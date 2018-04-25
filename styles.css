@@ -121,6 +121,11 @@ div.interaction-module {
   height: 250px;
   color: #FFF;
   transition-duration: 0.5s;
+  border-left: 2px solid #D00;
+}
+
+div.interaction-module p {
+  margin-left: 10px;
 }
 
 div.interaction-module.hidden {
@@ -267,11 +272,10 @@ div#labels {
   display: flex;
   justify-content: space-around;
   font-size: 2.5em;
-  font-style
   text-align: center;
   font-family: 'Helvetica', 'Arial', sans-serif;
   position: relative;
-  z-index: 200;
+  z-index: 2;
 }
 
 #label-one {
@@ -308,7 +312,7 @@ div.student-text {
   margin: auto;
   height: 600px;
   position: relative;
-  z-index: 1;
+  z-index: 3;
   opacity: .0;
   transition-duration: 1.5s;
   overflow: hidden;
