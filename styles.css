@@ -257,17 +257,17 @@ div#students div.portrait {
   width: 30%;
   display: inline-block;
   cursor: pointer;
+  position: relative;
 }
 
-div.portrait:hover {
-  opacity: .5;
+div.portrait img:hover {
+  opacity: 0.5;
 }
 
 div.portrait p {
   font-family: 'Helvetica', 'Arial', sans-serif;
   font-style: italic;
   font-size: 3em;
-  top: -250px; 
   position: relative;
 }
 
@@ -276,14 +276,14 @@ div.portrait p {
 }
 
 #label-two {
-
+  color: #9B6B26;
 }
 
 #label-three {
-
+  color: #4DAA91;
 }
 
-div.portrait p.hidden {
+div#labels p.hidden {
   display: none;
 }
 

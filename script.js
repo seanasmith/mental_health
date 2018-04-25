@@ -43,17 +43,17 @@ $('.portrait').on('mouseover', function () {
   var hoveredPortrait = $(this).attr('id');
   
   if (hoveredPortrait == 'first-story') {
-    $('#label-one').toggleClass('hidden');
+    $('#label-one').removeClass('hidden');
   } else if (hoveredPortrait == 'second-story') {
-    $('#label-two').toggleClass('hidden');    
+    $('#label-two').removeClass('hidden');    
   } else {
-    $('#label-three').toggleClass('hidden');
+    $('#label-three').removeClass('hidden');
   };
 });
 
 
 $('.portrait').on('mouseout', function () {
-  $('.portrait p').addClass('hidden');
+  $('#label p').addClass('hidden');
 });
 
 
