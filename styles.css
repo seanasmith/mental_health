@@ -279,16 +279,19 @@ div.portrait img:hover {
   opacity: 1;
 }
 
+div.popup-text h1 {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+}
 
-#label-one {
+#text-label-red {
  color: #D00;
 }
 
-#label-two {
+#text-label-yellow {
   color: #FFA500;
 }
 
-#label-three {
+#text-label-blue {
   color: #4DAA91;
 }
 
