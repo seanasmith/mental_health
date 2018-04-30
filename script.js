@@ -76,7 +76,7 @@ $(document).ready(function(){
 
       // get hash value
       var hash = this.hash;
-
+      
       // animate for smooth scroll to clicked link
       $('html, body').animate({
         scrollTop: $(hash).offset().top
@@ -85,6 +85,26 @@ $(document).ready(function(){
     } // End if
   });
 });
+
+
+/*
+=========================================
+    add scribble to menu when there
+=========================================
+*/
+
+
+
+$(window).scroll(function(){
+    var scrollPos = $(document).scrollTop();
+    console.log(scrollPos);
+  
+  if (scrollPos == 874) {
+  $('nav ul li a ')
+};
+  
+});
+
 
 /*
 =========================================
