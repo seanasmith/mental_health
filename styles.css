@@ -258,7 +258,7 @@ div#intro p {
 
 div#students {
   position: relative;
-  height: 110vh;
+  height: 100vh;
   text-align: center;
   z-index: 1;
   width: 80%;
@@ -269,21 +269,16 @@ div#students div.portrait {
   display: inline-block;
   cursor: pointer;
   position: relative;
+  top: 120px;
 }
 
+div.portrait img {
+  opacity: 0.6;
+}
 div.portrait img:hover {
-  opacity: 0.5;
+  opacity: 1;
 }
 
-div#labels {
-  display: flex;
-  justify-content: space-around;
-  font-size: 2.5em;
-  text-align: center;
-  font-family: 'Helvetica', 'Arial', sans-serif;
-  position: relative;
-  z-index: 2;
-}
 
 #label-one {
  color: #D00;
@@ -313,6 +308,18 @@ div#students div.portrait img {
   width: 100%;
 }
 
+div#first-story img:hover {
+  box-shadow: 0 0 0 3px #D00;
+}
+
+div#second-story img:hover {
+  box-shadow: 0 0 0 3px #FFA500;
+}
+
+div#third-story img:hover {
+  box-shadow: 0 0 0 3px #4DAA91;
+}
+
 div.student-text {
   background-color: #000;
   width: 100%;
@@ -332,7 +339,7 @@ div.student-text {
 
 #story-one-text.reveal {
   opacity: 1;
-  top: -600px;
+  top: -450px;
 }
 
 #story-two-text {
@@ -341,7 +348,7 @@ div.student-text {
 
 #story-two-text.reveal {
   opacity: 1;
-  top: -1200px;
+  top: -1050px;
 }
 
 
@@ -351,7 +358,7 @@ div.student-text {
 
 #story-three-text.reveal {
   opacity: 1;
-  top: -1800px;
+  top: -1650px;
 }
 
 div.student-text img {
