@@ -89,42 +89,6 @@ $(document).ready(function(){
 
 /*
 =========================================
-    add scribble to menu when there
-=========================================
-*/
-
-
-
-$(window).scroll(function(){
-    var scrollPos = $(document).scrollTop();
-    console.log(scrollPos);
-  
- 
- 
- if (scrollPos == 874) {
-    //experience
-  $('nav ul li a#experience-link').addClass('shake-little');
-} else if (scrollPos == 1931) {
-   //background        
-  $('nav ul li a#background-link').addClass('shake-little');         
-} else if (scrollPos == 2511) {
-  //students
- $('nav ul li a#students-link').addClass('shake-little'); 
-} else if (scrollPos == 2919) {
-  //end           
-  $('nav ul li a#end-link').addClass('shake-little');
-} else {
-  //top
-  $('nav ul li a#top-link').addClass('shake-little');
-};
-
-
-  
-});
-
-
-/*
-=========================================
         menu link hover expansion
 =========================================
 */
