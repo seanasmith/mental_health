@@ -333,7 +333,8 @@ div.student-text {
   opacity: .0;
   transition-duration: 1.5s;
   overflow: hidden;
-  border: 1px solid #888;
+  border-top: 1px solid #888;
+  border-bottom: 1px solid #888;
 }
 
 #story-one-text {
@@ -406,79 +407,6 @@ div.popup-text {
 
 /*
 ====================================================
-                   professional
-====================================================
-*/
-
-div#professionals {
-  width: 100%;
-  margin: auto;
-  height: 140vh;
-  position: relative;
-  z-index: 10;
-  background: linear-gradient(#000,#aaa);
-  color: #FFF;
-}
-
-#professionals p {
-  width: 45%;
-  margin: auto;
-  margin-bottom: 20px;
-  font-size: 14px;
-  letter-spacing: 2px;
-  line-height: 1.6;
-  font-weight: 300;
-}
-
-#pro-paragraphs {
-  padding-top: 100px;
-}
-
-#pro-image {
-  margin: auto;
-  width: 60%;
-  
-}
-
-#pro-image img {
-  width: 100%;
-  
-}
-
-/*
-====================================================
-                     wrap up
-====================================================
-*/
-
-#wrapup {
-  height: 100vh;
-  width: 100%;
-  margin: auto;
-  position: relative;
-  z-index: 10;
-   background: linear-gradient(#aaa,#fff);
-  padding-top: 40px;
-  
-}
-
-#wrapup p {
-  width: 45%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  font-size: 14px;
-  letter-spacing: 2px;
-  line-height: 1.6;
-  color: #000;
- 
-}
-
-
-
-/*
-====================================================
                          end 
 ====================================================
 */
@@ -486,10 +414,10 @@ div#professionals {
 #end {
   width: 100%;
   margin: auto;
-  height: 20vh;
+  height: 40vh;
   position: relative;
   z-index: 10;
-  background-color: #FFF;
+  background-color: #000;
   clear: both;
   top: 0px;
 }
@@ -498,12 +426,13 @@ div#professionals {
   width: 70%;
   margin: auto;
   line-height: 1.6;
+  color: white;
 }
 
 #end a {
-  color: #000;
+  color: #FFF;
   text-decoration: none;
-  border-bottom: 3px solid #d00;
+  border-bottom: 3px solid #D00;
 }
 
 #end img {
