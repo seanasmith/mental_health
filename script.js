@@ -3,19 +3,19 @@
        open student feature popup
 =========================================
 */
-
+//
 //set event and function
 
 $('.portrait').on('click', function() {
     var text = $(this).attr('id');
     $('.student-text').removeClass('reveal');
-   
+
 //get id for clicked portrait, make visible appropriate text div
-  
+
     if (text == 'first-story') {
       $('.student-text#story-one-text').addClass('reveal');
     } else if (text == 'second-story'){
-      $('.student-text#story-two-text').addClass('reveal');   
+      $('.student-text#story-two-text').addClass('reveal');
     } else {
       $('.student-text#story-three-text').addClass('reveal');
     }
@@ -41,11 +41,11 @@ $('.close').on('click', function () {
 
 $('.portrait').on('mouseover', function () {
   var hoveredPortrait = $(this).attr('id');
-  
+
   if (hoveredPortrait == 'first-story') {
     $('#label-one').removeClass('hidden');
   } else if (hoveredPortrait == 'second-story') {
-    $('#label-two').removeClass('hidden');    
+    $('#label-two').removeClass('hidden');
   } else {
     $('#label-three').removeClass('hidden');
   };
@@ -76,7 +76,7 @@ $(document).ready(function(){
 
       // get hash value
       var hash = this.hash;
-      
+
       // animate for smooth scroll to clicked link
       $('html, body').animate({
         scrollTop: $(hash).offset().top
@@ -113,11 +113,11 @@ $('nav ul li a').on('mouseout', function() {
 =========================================
 */
 
-$(document).ready(function(){          
+$(document).ready(function(){
   var scroll_pos = 0;
-  $(document).scroll(function() { 
+  $(document).scroll(function() {
     scroll_pos = $(this).scrollTop();
-      
+
     if(scroll_pos < 3300) {
       $("nav ul li a").css('color', '#FFF');
     } else {
@@ -203,31 +203,31 @@ $('div.next').on('click', function () {
 */
 
 //set event for arrow hover
-$('div.next-arrow').on('mouseover', function () { 
+$('div.next-arrow').on('mouseover', function () {
   //get id from the hovered arrow
   var monologue = $(this).attr('id');
-  
-  
-  
+
+
+
   //set the script used in internal-monologue to match the hovered arrow
-  
-  
-  
+
+
+
   if (monologue == 1) {
   //change internal-monologue text to 1
     $('div#internal-monologue p').html("<img src='https://cdn.glitch.com/055eb7aa-bb22-412e-861e-7b9a86a1293f%2Fscribble2.gif?1524602351942' style='width: 50px; float: left;' /><p>Remember that time senior year of high school when you got two hours of sleep on the spring trip and couldn't stop throwing up on the bus? And how everyone kept staring at you?</p>");
-  } else if (monologue == 2) {   
+  } else if (monologue == 2) {
   //change internal-monologue text to 2
-    $('div#internal-monologue p').html("<img src='https://cdn.glitch.com/055eb7aa-bb22-412e-861e-7b9a86a1293f%2Fscribble2.gif?1524602351942' style='width: 50px; float: left;' /><p>What if it's like that on the plane? Or in the airport? What if you're so nervous you can't drive the rental car?</p>");   
-  } else if (monologue == 3) {   
+    $('div#internal-monologue p').html("<img src='https://cdn.glitch.com/055eb7aa-bb22-412e-861e-7b9a86a1293f%2Fscribble2.gif?1524602351942' style='width: 50px; float: left;' /><p>What if it's like that on the plane? Or in the airport? What if you're so nervous you can't drive the rental car?</p>");
+  } else if (monologue == 3) {
   //change internal-monologue text to 3
-    $('div#internal-monologue p').html("<img src='https://cdn.glitch.com/055eb7aa-bb22-412e-861e-7b9a86a1293f%2Fscribble2.gif?1524602351942' style='width: 50px; float: left;' /><p>The last time you checked your phone last night was 4:30...that means you could've gotten up to an hour and a half of sleep...great.</p>");  
-  } else if (monologue == 4) {    
+    $('div#internal-monologue p').html("<img src='https://cdn.glitch.com/055eb7aa-bb22-412e-861e-7b9a86a1293f%2Fscribble2.gif?1524602351942' style='width: 50px; float: left;' /><p>The last time you checked your phone last night was 4:30...that means you could've gotten up to an hour and a half of sleep...great.</p>");
+  } else if (monologue == 4) {
   //change internal-monologue text to 4
     $('div#internal-monologue p').html("<img src='https://cdn.glitch.com/055eb7aa-bb22-412e-861e-7b9a86a1293f%2Fscribble2.gif?1524602351942' style='width: 50px; float: left;' /><p>That time in high school, you didn't eat before trying to go to sleep...maybe you just need food. But how are you supposed to eat with such an upset stomach?</p>");
   } else if (monologue == 5) {
   //change internal-monologue text to 5
-    $('div#internal-monologue p').html("<img src='https://cdn.glitch.com/055eb7aa-bb22-412e-861e-7b9a86a1293f%2Fscribble2.gif?1524602351942' style='width: 50px; float: left;' /><p>Maybe the tea will be enough. Just hold out till the flight and try and sleep on the plane. It's a long flight to L.A., so maybe that'll save you.</p>");  
+    $('div#internal-monologue p').html("<img src='https://cdn.glitch.com/055eb7aa-bb22-412e-861e-7b9a86a1293f%2Fscribble2.gif?1524602351942' style='width: 50px; float: left;' /><p>Maybe the tea will be enough. Just hold out till the flight and try and sleep on the plane. It's a long flight to L.A., so maybe that'll save you.</p>");
   } else if (monologue == 6) {
   //change internal-monologue text to 6
     $('div#internal-monologue p').html("<img src='https://cdn.glitch.com/055eb7aa-bb22-412e-861e-7b9a86a1293f%2Fscribble2.gif?1524602351942' style='width: 50px; float: left;' /><p>Ok, but what if you get sick on the plane...you can't go hide in the bathroom, and vomitting isn't the quietest thing in the world. And you try and get up during taxiing or takeoff, so you're stuck here.</p>");
@@ -239,8 +239,8 @@ $('div.next-arrow').on('mouseover', function () {
 
 
 
-$('div.restart').on('mouseover', function () { 
-  //set internal-monologue to script that matches restart hover 
+$('div.restart').on('mouseover', function () {
+  //set internal-monologue to script that matches restart hover
   $('div#internal-monologue p').html("<img src='https://cdn.glitch.com/055eb7aa-bb22-412e-861e-7b9a86a1293f%2Fscribble2.gif?1524602351942' style='width: 50px; float: left;' /><p>It doesn't seem like too many people noticed, but you need to calm down or this trip will be hell. You don't want a repeat of that trip senior year, or the trip to Chicago, or to Tennessee...</p>");
 });
 
@@ -251,15 +251,12 @@ $('div.restart').on('mouseover', function () {
 ==========================================================
 */
 
-$('div.next-arrow').on('mouseout', function () { 
+$('div.next-arrow').on('mouseout', function () {
   $('div#internal-monologue p').text("");
 });
 
 
 
-$('div.restart').on('mouseout', function () {   
+$('div.restart').on('mouseout', function () {
   $('div#internal-monologue p').text('');
 });
-
-
-

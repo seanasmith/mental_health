@@ -7,7 +7,7 @@ body {
 .section {
   margin: auto;
 }
-
+/**/
 hr {
   border: none;
   height: 30px;
@@ -84,7 +84,7 @@ nav ul li a {
 }
 
 #headline img {
-  
+
   width: 50vw;
 }
 
@@ -115,7 +115,7 @@ nav ul li a {
 div#interaction {
   height: 95vh;
   position: relative;
-  background-color: #000;    
+  background-color: #000;
 }
 
 div.interaction-module {
@@ -407,7 +407,7 @@ div.popup-text {
 
 /*
 ====================================================
-                         end 
+                         end
 ====================================================
 */
 
